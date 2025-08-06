@@ -1,0 +1,128 @@
+Video Monitoring System - File Structure
+===============================================
+
+video-monitoring-system/
+├── src/
+│   ├── __init__.py
+│   ├── main.py                          # Main application entry point
+│   ├── config.py                        # Configuration management
+│   ├── database.py                      # Database connection and operations
+│   ├── model_manager.py                 # AI model management
+│   ├── camera_manager.py                # Camera stream management
+│   ├── kalman_tracker.py                # Object tracking
+│   ├── camera_model_base.py             # Base camera model class
+│   ├── db_writer.py                     # Database writer (async)
+│   ├── storage_handler.py               # Cloud storage handler
+│   ├── logger.py                        # Logging utilities
+│   ├── utils.py                         # Utility functions
+│   │
+│   └── detection_scripts/               # Individual detection modules
+│       ├── __init__.py
+│       ├── tailgating_detection.py      # Tailgating detection
+│       ├── unauthorized_access_detection.py # Unauthorized access
+│       ├── people_counting.py           # People counting
+│       ├── ppe_detection.py             # PPE compliance detection
+│       ├── intrusion_detection.py       # Intrusion detection
+│       └── loitering_detection.py       # Loitering detection
+│
+├── models/                              # AI model files
+│   ├── yolov11l.pt                      # Person detection model
+│   ├── ppe_detection.pt                 # PPE detection model (optional)
+│   └── yolov11l-pose.pt                 # Pose estimation model (optional)
+│
+├── output_frames/                       # Generated frame outputs
+│   └── camera_*/                        # Per-camera output directories
+│
+├── logs/                                # Application logs
+│   ├── main.log
+│   ├── database.log
+│   └── camera_*.log
+│
+├── secrets/                             # Sensitive configuration files
+│   └── gcp-credentials.json             # GCP service account key (if used)
+│
+├── config/                              # Configuration files
+│   └── cameras.json                     # Camera configurations (optional)
+│
+├── docker/                              # Docker configuration
+│   ├── Dockerfile                       # Docker image definition
+│   ├── docker-compose.yml               # Docker compose setup
+│   └── requirements.txt                 # Python dependencies
+│
+├── scripts/                             # Utility scripts
+│   ├── setup.sh                         # System setup script
+│   └── install_models.py                # Model download script
+│
+├── tests/                               # Test files
+│   ├── test_database.py
+│   ├── test_models.py
+│   └── test_detection.py
+│
+├── .env                                 # Environment variables
+├── .env.example                         # Environment template
+├── .gitignore                           # Git ignore rules
+├── README.md                            # Project documentation
+├── requirements.txt                     # Python dependencies
+├── db_setup.sql                         # Database initialization
+└── setup.py                            # Package setup (optional)
+
+Key Files Description:
+======================
+
+Core Application Files:
+- main.py: Command-line interface and session management
+- config.py: Configuration classes and model definitions  
+- database.py: Simplified database operations
+- model_manager.py: YOLO model loading and inference
+- camera_manager.py: RTSP stream handling
+- kalman_tracker.py: Multi-object tracking with Kalman filters
+
+Detection Scripts (Standalone):
+- tailgating_detection.py: Detect multiple people entering together
+- people_counting.py: Count people crossing lines or entering zones
+- ppe_detection.py: Detect PPE compliance violations
+- unauthorized_access_detection.py: Detect people in restricted areas  
+- intrusion_detection.py: General intrusion detection
+- loitering_detection.py: Detect people staying too long
+
+Base Classes:
+- camera_model_base.py: Common functionality for all detectors
+- db_writer.py: Asynchronous database writing
+- storage_handler.py: Cloud storage integration
+- logger.py: Structured logging
+
+Configuration:
+- .env: Environment variables and settings
+- db_setup.sql: Database schema and sample data
+- requirements.txt: Python package dependencies
+
+Deployment:
+- Dockerfile: Container image definition
+- docker-compose.yml: Multi-service deployment
+- setup.sh: System installation script
+
+Directory Structure Commands:
+============================
+
+# Create the directory structure
+mkdir -p video-monitoring-system/src/detection_scripts
+mkdir -p video-monitoring-system/models
+mkdir -p video-monitoring-system/output_frames
+mkdir -p video-monitoring-system/logs  
+mkdir -p video-monitoring-system/secrets
+mkdir -p video-monitoring-system/config
+mkdir -p video-monitoring-system/docker
+mkdir -p video-monitoring-system/scripts
+mkdir -p video-monitoring-system/tests
+
+# Create __init__.py files
+touch video-monitoring-system/src/__init__.py
+touch video-monitoring-system/src/detection_scripts/__init__.py
+touch video-monitoring-system/tests/__init__.py
+
+File Permissions:
+================
+- Make main.py executable: chmod +x src/main.py
+- Make setup script executable: chmod +x scripts/setup.sh
+- Protect secrets directory: chmod 700 secrets/
+- Protect .env file: chmod 600 .env

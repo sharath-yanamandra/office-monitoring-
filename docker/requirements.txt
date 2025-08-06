@@ -1,0 +1,47 @@
+# Core dependencies
+opencv-python==4.8.1.78
+numpy==1.24.3
+ultralytics==8.0.196
+torch==2.0.1
+torchvision==0.15.2
+
+# Database
+mysql-connector-python==8.1.0
+
+# Tracking and filtering
+scipy==1.11.2
+filterpy==1.4.5
+
+# Configuration and environment
+python-dotenv==1.0.0
+
+# Cloud storage (optional)
+google-cloud-storage==2.10.0
+
+# Logging and monitoring
+psutil==5.9.5
+
+# Async support
+asyncio-mqtt==0.13.0
+
+# Image processing and utilities
+Pillow==10.0.0
+matplotlib==3.7.2
+
+# Development and testing
+pytest==7.4.2
+pytest-asyncio==0.21.1
+black==23.7.0
+flake8==6.0.0
+
+# Optional: Web interface dependencies
+fastapi==0.103.0
+uvicorn==0.23.2
+jinja2==3.1.2
+
+# Optional: Jupyter for analysis
+jupyter==1.0.0
+plotly==5.15.0
+
+# System monitoring
+docker==6.1.3

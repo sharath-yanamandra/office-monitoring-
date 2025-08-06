@@ -1,0 +1,508 @@
+# Video Monitoring System - Deployment Guide
+
+## Local Deployment
+
+### Prerequisites
+
+1. **Python 3.9+**
+   ```bash
+   python --version  # Should be 3.9 or higher
+   ```
+
+2. **MySQL 8.0+**
+   ```bash
+   # Ubuntu/Debian
+   sudo apt update
+   sudo apt install mysql-server
+   
+   # CentOS/RHEL
+   sudo yum install mysql-server
+   
+   # macOS (using Homebrew)
+   brew install mysql
+   ```
+
+3. **CUDA (Optional, for GPU acceleration)**
+   ```bash
+   # Check if CUDA is available
+   nvidia-smi
+   
+   # Install CUDA toolkit if needed
+   # Follow NVIDIA CUDA installation guide for your OS
+   ```
+
+### Installation Steps
+
+1. **Clone/Setup Project Structure**
+   ```bash
+   # Create directory structure
+   mkdir -p video-monitoring-system/src/detection_scripts
+   cd video-monitoring-system
+   
+   # Copy all files according to file structure guide
+   # (See file_structure.txt for complete directory layout)
+   ```
+
+2. **Set up Python Virtual Environment**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   
+   pip install --upgrade pip
+   pip install -r requirements.txt
+   ```
+
+3. **Configure Environment Variables**
+   ```bash
+   cp .env.example .env
+   nano .env  # Edit with your actual values
+   
+   # Key configurations to update:
+   MYSQL_HOST=localhost
+   MYSQL_USER=video_monitor_user
+   MYSQL_PASSWORD=your_secure_password
+   MYSQL_DATABASE=video_monitoring
+   DETECTION_MODEL_PATH=models/yolov11l.pt
+   FRAMES_OUTPUT_DIR=output_frames
+   ```
+
+4. **Set up MySQL Database**
+   ```bash
+   # Connect to MySQL as root
+   mysql -u root -p
+   
+   # Create database and user
+   CREATE DATABASE video_monitoring;
+   CREATE USER 'video_monitor_user'@'localhost' IDENTIFIED BY 'your_secure_password';
+   GRANT ALL PRIVILEGES ON video_monitoring.* TO 'video_monitor_user'@'localhost';
+   FLUSH PRIVILEGES;
+   EXIT;
+   
+   # Initialize database schema and sample data
+   mysql -u video_monitor_user -p video_monitoring < db_setup.sql
+   ```
+
+5. **Download AI Models**
+   ```bash
+   # Create models directory
+   mkdir -p models
+   
+   # Download YOLO models (these will be downloaded automatically on first run)
+   # Or manually download:
+   wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov11l.pt -P models/
+   
+   # For PPE detection, you'll need a custom trained model
+   # Place your PPE model at: models/ppe_detection.pt
+   ```
+
+6. **Test Installation**
+   ```bash
+   # Set Python path
+   export PYTHONPATH=$PWD:$PWD/src
+   
+   # Run health check
+   python main.py health-check
+   
+   # List available cameras
+   python main.py list-cameras
+   
+   # Initialize sample data if needed
+   python main.py init-data
+   ```
+
+### Running the System
+
+1. **Start Monitoring Session**
+   ```bash
+   # Monitor camera 1 with people counting
+   python main.py monitor --camera 1 --models people_counting
+   
+   # Monitor with multiple detection models
+   python main.py monitor --camera 1 --models tailgating people_counting ppe_detection
+   
+   # List available models
+   python main.py list-models
+   ```
+
+2. **Search Events**
+   ```bash
+   # Search all events
+   python main.py search-events
+   
+   # Search specific camera events
+   python main.py search-events --camera 1
+   
+   # Search by event type
+   python main.py search-events --type tailgating --severity high
+   ```
+
+3. **View Camera Details**
+   ```bash
+   python main.py camera-details 1
+   ```
+
+---
+
+## Docker Deployment
+
+### Prerequisites
+
+1. **Docker and Docker Compose**
+   ```bash
+   # Install Docker
+   curl -fsSL https://get.docker.com -o get-docker.sh
+   sudo sh get-docker.sh
+   
+   # Install Docker Compose
+   sudo curl -L "https://github.com/docker/compose/releases/download/v2.0.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   sudo chmod +x /usr/local/bin/docker-compose
+   ```
+
+2. **NVIDIA Container Toolkit (for GPU support)**
+   ```bash
+   # Install NVIDIA container toolkit
+   distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
+   curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
+   curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+   
+   sudo apt-get update && sudo apt-get install -y nvidia-docker2
+   sudo systemctl restart docker
+   ```
+
+### Docker Deployment Steps
+
+1. **Prepare Environment**
+   ```bash
+   # Set up directory structure
+   mkdir -p video-monitoring-system/{models,output_frames,logs,secrets}
+   cd video-monitoring-system
+   
+   # Copy all files and create .env
+   cp .env.example .env
+   # Edit .env with your settings
+   ```
+
+2. **Build and Start Services**
+   ```bash
+   # Build and start all services
+   docker-compose up -d
+   
+   # Or build specific services
+   docker-compose up -d mysql
+   docker-compose up -d app
+   
+   # View logs
+   docker-compose logs -f app
+   ```
+
+3. **Initialize Database**
+   ```bash
+   # Wait for MySQL to be ready, then initialize
+   docker-compose exec app python main.py init-data
+   ```
+
+4. **Run Monitoring**
+   ```bash
+   # Execute monitoring inside container
+   docker-compose exec app python main.py monitor --camera 1 --models people_counting
+   
+   # Or run health check
+   docker-compose exec app python main.py health-check
+   ```
+
+5. **Access Services**
+   ```bash
+   # Application: localhost:8000 (when API is implemented)
+   # phpMyAdmin: localhost:8080 (if enabled with --profile admin)
+   
+   # Enable phpMyAdmin
+   docker-compose --profile admin up -d phpmyadmin
+   ```
+
+---
+
+## Google Cloud Platform (GCP) Deployment
+
+### Prerequisites
+
+1. **GCP Account and Project**
+   - Create GCP project
+   - Enable required APIs:
+     - Compute Engine API
+     - Cloud SQL API
+     - Cloud Storage API
+     - Container Registry API
+
+2. **Install gcloud CLI**
+   ```bash
+   # Install gcloud
+   curl https://sdk.cloud.google.com | bash
+   exec -l $SHELL
+   gcloud init
+   
+   # Authenticate
+   gcloud auth login
+   gcloud config set project YOUR_PROJECT_ID
+   ```
+
+### GCP Deployment Options
+
+#### Option 1: Compute Engine VM
+
+1. **Create VM Instance**
+   ```bash
+   # Create GPU-enabled VM (optional)
+   gcloud compute instances create video-monitoring-vm \
+     --zone=us-central1-a \
+     --machine-type=n1-standard-4 \
+     --accelerator=type=nvidia-tesla-t4,count=1 \
+     --image-family=ubuntu-2004-lts \
+     --image-project=ubuntu-os-cloud \
+     --boot-disk-size=50GB \
+     --boot-disk-type=pd-ssd \
+     --maintenance-policy=TERMINATE \
+     --restart-on-failure \
+     --tags=video-monitoring
+   
+   # Or create standard VM without GPU
+   gcloud compute instances create video-monitoring-vm \
+     --zone=us-central1-a \
+     --machine-type=n1-standard-2 \
+     --image-family=ubuntu-2004-lts \
+     --image-project=ubuntu-os-cloud \
+     --boot-disk-size=20GB \
+     --tags=video-monitoring
+   ```
+
+2. **Set up Firewall Rules**
+   ```bash
+   # Allow HTTP/HTTPS traffic
+   gcloud compute firewall-rules create allow-video-monitoring \
+     --allow tcp:8000,tcp:8080,tcp:3306 \
+     --source-ranges 0.0.0.0/0 \
+     --target-tags video-monitoring
+   ```
+
+3. **SSH and Install**
+   ```bash
+   # SSH to instance
+   gcloud compute ssh video-monitoring-vm --zone=us-central1-a
+   
+   # Follow local installation steps inside VM
+   # Install Docker, clone code, set up environment
+   ```
+
+#### Option 2: Cloud SQL + Cloud Run
+
+1. **Create Cloud SQL Instance**
+   ```bash
+   # Create MySQL instance
+   gcloud sql instances create video-monitoring-db \
+     --database-version=MYSQL_8_0 \
+     --tier=db-n1-standard-1 \
+     --region=us-central1 \
+     --root-password=your_root_password \
+     --availability-type=zonal \
+     --storage-size=20GB \
+     --storage-type=SSD
+   
+   # Create database
+   gcloud sql databases create video_monitoring --instance=video-monitoring-db
+   
+   # Create user
+   gcloud sql users create video_monitor_user \
+     --instance=video-monitoring-db \
+     --password=your_secure_password
+   ```
+
+2. **Create Cloud Storage Bucket**
+   ```bash
+   # Create bucket for frame storage
+   gsutil mb gs://your-project-video-monitoring-storage
+   
+   # Set up proper permissions
+   gsutil iam ch serviceAccount:YOUR_SERVICE_ACCOUNT:objectAdmin gs://your-project-video-monitoring-storage
+   ```
+
+3. **Deploy to Cloud Run**
+   ```bash
+   # Build and push container
+   gcloud builds submit --tag gcr.io/YOUR_PROJECT_ID/video-monitoring
+   
+   # Deploy to Cloud Run
+   gcloud run deploy video-monitoring \
+     --image gcr.io/YOUR_PROJECT_ID/video-monitoring \
+     --platform managed \
+     --region us-central1 \
+     --allow-unauthenticated \
+     --memory 2Gi \
+     --cpu 2 \
+     --set-env-vars MYSQL_HOST=YOUR_SQL_CONNECTION_NAME \
+     --set-env-vars GCP_PROJECT=YOUR_PROJECT_ID \
+     --set-env-vars GCP_BUCKET_NAME=your-project-video-monitoring-storage
+   ```
+
+#### Option 3: Google Kubernetes Engine (GKE)
+
+1. **Create GKE Cluster**
+   ```bash
+   # Create cluster
+   gcloud container clusters create video-monitoring-cluster \
+     --zone us-central1-a \
+     --num-nodes 3 \
+     --machine-type n1-standard-2 \
+     --enable-autoscaling \
+     --min-nodes 1 \
+     --max-nodes 5
+   
+   # Get credentials
+   gcloud container clusters get-credentials video-monitoring-cluster --zone us-central1-a
+   ```
+
+2. **Deploy with Kubernetes**
+   ```bash
+   # Create namespace
+   kubectl create namespace video-monitoring
+   
+   # Apply configurations (create k8s manifests)
+   kubectl apply -f k8s/
+   ```
+
+### GCP Configuration
+
+1. **Service Account Setup**
+   ```bash
+   # Create service account
+   gcloud iam service-accounts create video-monitoring-sa \
+     --description="Service account for video monitoring system" \
+     --display-name="Video Monitoring SA"
+   
+   # Grant necessary permissions
+   gcloud projects add-iam-policy-binding YOUR_PROJECT_ID \
+     --member="serviceAccount:video-monitoring-sa@YOUR_PROJECT_ID.iam.gserviceaccount.com" \
+     --role="roles/cloudsql.client"
+   
+   gcloud projects add-iam-policy-binding YOUR_PROJECT_ID \
+     --member="serviceAccount:video-monitoring-sa@YOUR_PROJECT_ID.iam.gserviceaccount.com" \
+     --role="roles/storage.objectAdmin"
+   
+   # Create and download key
+   gcloud iam service-accounts keys create secrets/gcp-credentials.json \
+     --iam-account=video-monitoring-sa@YOUR_PROJECT_ID.iam.gserviceaccount.com
+   ```
+
+2. **Environment Configuration for GCP**
+   ```bash
+   # Update .env for GCP
+   MYSQL_HOST=/cloudsql/YOUR_PROJECT_ID:us-central1:video-monitoring-db
+   GCP_PROJECT=YOUR_PROJECT_ID
+   GCP_BUCKET_NAME=your-project-video-monitoring-storage
+   GOOGLE_APPLICATION_CREDENTIALS=secrets/gcp-credentials.json
+   ```
+
+### Monitoring and Logging
+
+1. **Enable Monitoring**
+   ```bash
+   # Enable required APIs
+   gcloud services enable monitoring.googleapis.com
+   gcloud services enable logging.googleapis.com
+   
+   # Set up monitoring (optional)
+   gcloud alpha monitoring dashboards create --config-from-file=monitoring-dashboard.json
+   ```
+
+2. **View Logs**
+   ```bash
+   # Cloud Run logs
+   gcloud logs read "resource.type=cloud_run_revision AND resource.labels.service_name=video-monitoring"
+   
+   # Compute Engine logs
+   gcloud logs read "resource.type=gce_instance AND resource.labels.instance_id=INSTANCE_ID"
+   ```
+
+---
+
+## Troubleshooting
+
+### Common Issues
+
+1. **Database Connection Issues**
+   ```bash
+   # Check MySQL status
+   sudo systemctl status mysql
+   
+   # Test connection
+   mysql -u video_monitor_user -p -h localhost video_monitoring
+   
+   # Check firewall
+   sudo ufw status
+   ```
+
+2. **Model Loading Issues**
+   ```bash
+   # Check model files
+   ls -la models/
+   
+   # Test model loading
+   python -c "from ultralytics import YOLO; model = YOLO('models/yolov11l.pt'); print('Model loaded successfully')"
+   ```
+
+3. **Camera Connection Issues**
+   ```bash
+   # Test RTSP stream
+   ffmpeg -i "rtsp://your_camera_url" -t 10 -f null -
+   
+   # Check camera accessibility
+   ping camera_ip_address
+   ```
+
+4. **GPU Issues**
+   ```bash
+   # Check CUDA installation
+   nvidia-smi
+   nvcc --version
+   
+   # Test PyTorch GPU
+   python -c "import torch; print(torch.cuda.is_available())"
+   ```
+
+5. **Permission Issues**
+   ```bash
+   # Fix directory permissions
+   sudo chown -R $USER:$USER output_frames/
+   sudo chown -R $USER:$USER logs/
+   
+   # Make scripts executable
+   chmod +x main.py
+   ```
+
+### Performance Tuning
+
+1. **Optimize Batch Size**
+   - Start with batch_size=1 for testing
+   - Increase based on GPU memory
+   - Monitor GPU utilization with `nvidia-smi`
+
+2. **Adjust Confidence Thresholds**
+   - Lower values = more detections (higher CPU/GPU load)
+   - Higher values = fewer false positives
+
+3. **Database Optimization**
+   ```sql
+   -- Add indexes for better query performance
+   CREATE INDEX idx_events_camera_time ON events(camera_id, timestamp);
+   CREATE INDEX idx_events_type_severity ON events(event_type, severity);
+   ```
+
+4. **Storage Management**
+   ```bash
+   # Set up log rotation
+   sudo nano /etc/logrotate.d/video-monitoring
+   
+   # Clean old output frames
+   find output_frames/ -name "*.jpg" -mtime +7 -delete
+   ```
+
+This deployment guide covers local development, Docker containerization, and various GCP deployment options. Choose the approach that best fits your infrastructure requirements and scalability needs.
+   

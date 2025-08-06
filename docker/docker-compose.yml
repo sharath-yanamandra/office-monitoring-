@@ -1,0 +1,145 @@
+version: '3.8'
+
+services:
+  # MySQL Database
+  mysql:
+    image: mysql:8.0
+    container_name: video-monitoring-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-root_password}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-video_monitoring}
+      MYSQL_USER: ${MYSQL_USER:-video_monitor_user}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-secure_password}
+    ports:
+      - "${MYSQL_PORT:-3306}:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./db_setup.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - video-monitoring-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      timeout: 10s
+      retries: 5
+      interval: 30s
+
+  # Video Monitoring Application
+  app:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: video-monitoring-app
+    environment:
+      # Database connection
+      MYSQL_HOST: mysql
+      MYSQL_PORT: 3306
+      MYSQL_USER: ${MYSQL_USER:-video_monitor_user}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-secure_password}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-video_monitoring}
+      
+      # Processing configuration
+      BATCH_SIZE: ${BATCH_SIZE:-4}
+      GPU_MEMORY_FRACTION: ${GPU_MEMORY_FRACTION:-0.8}
+      
+      # Detection parameters
+      PERSON_DETECTION_CONFIDENCE: ${PERSON_DETECTION_CONFIDENCE:-0.5}
+      PPE_CONFIDENCE_THRESHOLD: ${PPE_CONFIDENCE_THRESHOLD:-0.7}
+      
+      # Storage
+      FRAMES_OUTPUT_DIR: /app/output_frames
+      
+      # Logging
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      
+      # Google Cloud (if used)
+      GCP_PROJECT: ${GCP_PROJECT}
+      GCP_BUCKET_NAME: ${GCP_BUCKET_NAME}
+    
+    volumes:
+      # Mount model files
+      - ./models:/app/models:ro
+      
+      # Mount output directory
+      - ./output_frames:/app/output_frames
+      
+      # Mount logs
+      - ./logs:/app/logs
+      
+      # Mount secrets (if using GCP)
+      - ./secrets:/app/secrets:ro
+    
+    ports:
+      - "8000:8000"  # For future API
+    
+    networks:
+      - video-monitoring-network
+    
+    depends_on:
+      mysql:
+        condition: service_healthy
+    
+    restart: unless-stopped
+    
+    # GPU support (uncomment if using GPU)
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
+    
+    # Health check
+    healthcheck:
+      test: ["CMD", "python", "-c", "import sys; sys.exit(0)"]
+      timeout: 10s
+      retries: 3
+      interval: 30s
+
+  # Optional: phpMyAdmin for database management
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:5.2
+    container_name: video-monitoring-phpmyadmin
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      PMA_USER: ${MYSQL_USER:-video_monitor_user}
+      PMA_PASSWORD: ${MYSQL_PASSWORD:-secure_password}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-root_password}
+    ports:
+      - "8080:80"
+    networks:
+      - video-monitoring-network
+    depends_on:
+      mysql:
+        condition: service_healthy
+    restart: unless-stopped
+    profiles:
+      - admin
+
+  # Optional: Redis for caching (future use)
+  redis:
+    image: redis:7-alpine
+    container_name: video-monitoring-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - video-monitoring-network
+    restart: unless-stopped
+    profiles:
+      - cache
+    command: redis-server --appendonly yes
+
+volumes:
+  mysql_data:
+    driver: local
+  redis_data:
+    driver: local
+
+networks:
+  video-monitoring-network:
+    driver: bridge
+    name: video-monitoring-network
