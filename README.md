@@ -1,4 +1,4 @@
-# Video Monitoring System
+# Video Monitoring System. 
 
 A flexible, AI-powered video monitoring system that allows users to select camera feeds and choose which detection models to run. Perfect for datacenter security, office monitoring, and general surveillance applications.
 
