@@ -1,0 +1,2150 @@
+2025-08-13 15:39:25,017 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-13 15:39:25,018 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-13 15:39:31,906 - datacenter_database - ERROR - Error connecting to MySQL: 2003: Can't connect to MySQL server on '34.93.87.255:3306' (Errno 10053: An established connection was aborted by the software in your host machine)
+2025-08-13 16:08:37,130 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-13 16:08:37,131 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-13 16:08:47,074 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-13 16:08:47,109 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-13 16:08:47,145 - datacenter_database - INFO - Creating users table
+2025-08-13 16:08:47,195 - datacenter_database - INFO - Creating datacenters table
+2025-08-13 16:08:47,263 - datacenter_database - INFO - Creating cameras table
+2025-08-13 16:08:47,316 - datacenter_database - INFO - Creating zones table
+2025-08-13 16:08:47,361 - datacenter_database - INFO - Creating rules table
+2025-08-13 16:08:47,408 - datacenter_database - INFO - Creating events table
+2025-08-13 16:08:47,460 - datacenter_database - INFO - Creating access_logs table
+2025-08-13 16:08:47,571 - datacenter_database - INFO - Creating views
+2025-08-13 16:08:47,685 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-13 16:17:25,775 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-13 16:17:25,775 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-13 16:17:39,475 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-13 16:17:39,521 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-13 16:17:39,563 - datacenter_database - INFO - Creating users table
+2025-08-13 16:17:39,618 - datacenter_database - INFO - Creating datacenters table
+2025-08-13 16:17:39,682 - datacenter_database - INFO - Creating cameras table
+2025-08-13 16:17:39,737 - datacenter_database - INFO - Creating zones table
+2025-08-13 16:17:39,788 - datacenter_database - INFO - Creating rules table
+2025-08-13 16:17:39,834 - datacenter_database - INFO - Creating events table
+2025-08-13 16:17:39,908 - datacenter_database - INFO - Creating access_logs table
+2025-08-13 16:17:39,950 - datacenter_database - INFO - Creating views
+2025-08-13 16:17:40,080 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-13 16:20:18,068 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-13 16:20:18,069 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-13 16:20:31,849 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-13 16:20:31,895 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-13 16:20:31,957 - datacenter_database - INFO - Creating users table
+2025-08-13 16:20:32,054 - datacenter_database - INFO - Creating datacenters table
+2025-08-13 16:20:32,122 - datacenter_database - INFO - Creating cameras table
+2025-08-13 16:20:32,196 - datacenter_database - INFO - Creating zones table
+2025-08-13 16:20:32,267 - datacenter_database - INFO - Creating rules table
+2025-08-13 16:20:32,321 - datacenter_database - INFO - Creating events table
+2025-08-13 16:20:32,379 - datacenter_database - INFO - Creating access_logs table
+2025-08-13 16:20:32,430 - datacenter_database - INFO - Creating views
+2025-08-13 16:20:32,560 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-13 16:29:26,426 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-13 16:29:26,426 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-13 16:29:40,814 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-13 16:29:40,859 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-13 16:29:40,908 - datacenter_database - INFO - Creating users table
+2025-08-13 16:29:40,953 - datacenter_database - INFO - Creating datacenters table
+2025-08-13 16:29:41,010 - datacenter_database - INFO - Creating cameras table
+2025-08-13 16:29:41,104 - datacenter_database - INFO - Creating zones table
+2025-08-13 16:29:41,163 - datacenter_database - INFO - Creating rules table
+2025-08-13 16:29:41,231 - datacenter_database - INFO - Creating events table
+2025-08-13 16:29:41,292 - datacenter_database - INFO - Creating access_logs table
+2025-08-13 16:29:41,333 - datacenter_database - INFO - Creating views
+2025-08-13 16:29:41,473 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-13 16:36:06,942 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-13 16:36:06,943 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-13 16:36:17,661 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-13 16:36:17,690 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-13 16:36:17,718 - datacenter_database - INFO - Creating users table
+2025-08-13 16:36:17,748 - datacenter_database - INFO - Creating datacenters table
+2025-08-13 16:36:17,793 - datacenter_database - INFO - Creating cameras table
+2025-08-13 16:36:17,837 - datacenter_database - INFO - Creating zones table
+2025-08-13 16:36:17,878 - datacenter_database - INFO - Creating rules table
+2025-08-13 16:36:17,926 - datacenter_database - INFO - Creating events table
+2025-08-13 16:36:17,970 - datacenter_database - INFO - Creating access_logs table
+2025-08-13 16:36:17,997 - datacenter_database - INFO - Creating views
+2025-08-13 16:36:18,079 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-13 16:36:18,625 - datacenter_database - ERROR - Error executing statement: 1044 (42000): Access denied for user 'insighteye'@'%' to database 'datacenter_monitoring'
+2025-08-13 16:36:18,626 - datacenter_database - ERROR - Failed statement: CREATE DATABASE IF NOT EXISTS datacenter_monitoring;
+2025-08-13 16:36:18,627 - datacenter_database - ERROR - Error executing script: 1044 (42000): Access denied for user 'insighteye'@'%' to database 'datacenter_monitoring'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 391, in execute_script
+    cursor.execute(full_statement)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1044 (42000): Access denied for user 'insighteye'@'%' to database 'datacenter_monitoring'
+2025-08-13 16:36:18,747 - datacenter_database - ERROR - Error getting connection from pool: 1044 (42000): Access denied for user 'insighteye'@'%' to database 'datacenter_monitoring'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 391, in execute_script
+    cursor.execute(full_statement)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1044 (42000): Access denied for user 'insighteye'@'%' to database 'datacenter_monitoring'
+2025-08-13 16:44:54,383 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-13 16:44:54,383 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-13 16:45:04,254 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-13 16:45:04,282 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-13 16:45:04,313 - datacenter_database - INFO - Creating users table
+2025-08-13 16:45:04,349 - datacenter_database - INFO - Creating datacenters table
+2025-08-13 16:45:04,392 - datacenter_database - INFO - Creating cameras table
+2025-08-13 16:45:04,437 - datacenter_database - INFO - Creating zones table
+2025-08-13 16:45:04,475 - datacenter_database - INFO - Creating rules table
+2025-08-13 16:45:04,524 - datacenter_database - INFO - Creating events table
+2025-08-13 16:45:04,569 - datacenter_database - INFO - Creating access_logs table
+2025-08-13 16:45:04,598 - datacenter_database - INFO - Creating views
+2025-08-13 16:45:04,666 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-13 16:45:05,933 - datacenter_database - ERROR - Error executing statement: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IF NOT EXISTS idx_timestamp_status (timestamp, status)' at line 1
+2025-08-13 16:45:05,934 - datacenter_database - ERROR - Failed statement: ALTER TABLE events ADD INDEX IF NOT EXISTS idx_timestamp_status (timestamp, status);
+2025-08-13 16:45:05,934 - datacenter_database - ERROR - Error executing script: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IF NOT EXISTS idx_timestamp_status (timestamp, status)' at line 1
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 391, in execute_script
+    cursor.execute(full_statement)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IF NOT EXISTS idx_timestamp_status (timestamp, status)' at line 1
+2025-08-13 16:45:05,969 - datacenter_database - ERROR - Error getting connection from pool: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IF NOT EXISTS idx_timestamp_status (timestamp, status)' at line 1
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 391, in execute_script
+    cursor.execute(full_statement)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IF NOT EXISTS idx_timestamp_status (timestamp, status)' at line 1
+2025-08-13 16:47:08,831 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-13 16:47:08,832 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-13 16:47:20,929 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-13 16:47:20,968 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-13 16:47:21,005 - datacenter_database - INFO - Creating users table
+2025-08-13 16:47:21,046 - datacenter_database - INFO - Creating datacenters table
+2025-08-13 16:47:21,103 - datacenter_database - INFO - Creating cameras table
+2025-08-13 16:47:21,157 - datacenter_database - INFO - Creating zones table
+2025-08-13 16:47:21,196 - datacenter_database - INFO - Creating rules table
+2025-08-13 16:47:21,241 - datacenter_database - INFO - Creating events table
+2025-08-13 16:47:21,295 - datacenter_database - INFO - Creating access_logs table
+2025-08-13 16:47:21,327 - datacenter_database - INFO - Creating views
+2025-08-13 16:47:21,410 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-13 16:49:35,130 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-13 16:49:35,131 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-13 16:49:44,804 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-13 16:49:44,845 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-13 16:49:44,885 - datacenter_database - INFO - Creating users table
+2025-08-13 16:49:44,930 - datacenter_database - INFO - Creating datacenters table
+2025-08-13 16:49:44,994 - datacenter_database - INFO - Creating cameras table
+2025-08-13 16:49:45,064 - datacenter_database - INFO - Creating zones table
+2025-08-13 16:49:45,153 - datacenter_database - INFO - Creating rules table
+2025-08-13 16:49:45,204 - datacenter_database - INFO - Creating events table
+2025-08-13 16:49:45,270 - datacenter_database - INFO - Creating access_logs table
+2025-08-13 16:49:45,312 - datacenter_database - INFO - Creating views
+2025-08-13 16:49:45,422 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-13 16:50:01,686 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-13 16:50:01,687 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-13 16:50:13,305 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-13 16:50:13,343 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-13 16:50:13,384 - datacenter_database - INFO - Creating users table
+2025-08-13 16:50:13,430 - datacenter_database - INFO - Creating datacenters table
+2025-08-13 16:50:13,495 - datacenter_database - INFO - Creating cameras table
+2025-08-13 16:50:13,559 - datacenter_database - INFO - Creating zones table
+2025-08-13 16:50:13,616 - datacenter_database - INFO - Creating rules table
+2025-08-13 16:50:13,679 - datacenter_database - INFO - Creating events table
+2025-08-13 16:50:13,742 - datacenter_database - INFO - Creating access_logs table
+2025-08-13 16:50:13,781 - datacenter_database - INFO - Creating views
+2025-08-13 16:50:13,876 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-13 16:51:33,623 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-13 16:51:33,624 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-13 16:51:43,626 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-13 16:51:43,664 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-13 16:51:43,702 - datacenter_database - INFO - Creating users table
+2025-08-13 16:51:43,742 - datacenter_database - INFO - Creating datacenters table
+2025-08-13 16:51:43,810 - datacenter_database - INFO - Creating cameras table
+2025-08-13 16:51:43,873 - datacenter_database - INFO - Creating zones table
+2025-08-13 16:51:43,922 - datacenter_database - INFO - Creating rules table
+2025-08-13 16:51:43,971 - datacenter_database - INFO - Creating events table
+2025-08-13 16:51:44,029 - datacenter_database - INFO - Creating access_logs table
+2025-08-13 16:51:44,066 - datacenter_database - INFO - Creating views
+2025-08-13 16:51:44,160 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-13 16:58:09,804 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-13 16:58:09,805 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-13 16:58:20,275 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-13 16:58:20,304 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-13 16:58:20,330 - datacenter_database - INFO - Creating users table
+2025-08-13 16:58:20,359 - datacenter_database - INFO - Creating datacenters table
+2025-08-13 16:58:20,413 - datacenter_database - INFO - Creating cameras table
+2025-08-13 16:58:20,465 - datacenter_database - INFO - Creating zones table
+2025-08-13 16:58:20,504 - datacenter_database - INFO - Creating rules table
+2025-08-13 16:58:20,545 - datacenter_database - INFO - Creating events table
+2025-08-13 16:58:20,596 - datacenter_database - INFO - Creating access_logs table
+2025-08-13 16:58:20,626 - datacenter_database - INFO - Creating views
+2025-08-13 16:58:20,707 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-13 17:02:02,097 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-13 17:02:02,097 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-13 17:02:12,444 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-13 17:02:12,488 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-13 17:02:12,529 - datacenter_database - INFO - Creating users table
+2025-08-13 17:02:12,572 - datacenter_database - INFO - Creating datacenters table
+2025-08-13 17:02:12,637 - datacenter_database - INFO - Creating cameras table
+2025-08-13 17:02:12,700 - datacenter_database - INFO - Creating zones table
+2025-08-13 17:02:12,752 - datacenter_database - INFO - Creating rules table
+2025-08-13 17:02:12,802 - datacenter_database - INFO - Creating events table
+2025-08-13 17:02:12,862 - datacenter_database - INFO - Creating access_logs table
+2025-08-13 17:02:12,904 - datacenter_database - INFO - Creating views
+2025-08-13 17:02:13,011 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-13 17:02:15,341 - datacenter_database - ERROR - Error getting connection from pool: 1054 (42S22): Unknown column 'type' in 'field list'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 356, in execute_query
+    cursor.execute(query, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'type' in 'field list'
+2025-08-13 17:02:16,450 - datacenter_database - ERROR - Error getting connection from pool: 1054 (42S22): Unknown column 'type' in 'field list'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 356, in execute_query
+    cursor.execute(query, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'type' in 'field list'
+2025-08-13 17:02:17,713 - datacenter_database - ERROR - Error getting connection from pool: 1054 (42S22): Unknown column 'type' in 'field list'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 356, in execute_query
+    cursor.execute(query, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'type' in 'field list'
+2025-08-13 17:02:18,760 - datacenter_database - ERROR - Error getting connection from pool: 1054 (42S22): Unknown column 'type' in 'field list'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 356, in execute_query
+    cursor.execute(query, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'type' in 'field list'
+2025-08-13 17:02:19,853 - datacenter_database - ERROR - Error getting connection from pool: 1054 (42S22): Unknown column 'type' in 'field list'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 356, in execute_query
+    cursor.execute(query, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'type' in 'field list'
+2025-08-13 17:19:46,138 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-13 17:19:46,138 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-13 17:19:56,345 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-13 17:19:56,379 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-13 17:19:56,420 - datacenter_database - INFO - Creating users table
+2025-08-13 17:19:56,456 - datacenter_database - INFO - Creating datacenters table
+2025-08-13 17:19:56,532 - datacenter_database - INFO - Creating cameras table
+2025-08-13 17:19:56,593 - datacenter_database - INFO - Creating zones table
+2025-08-13 17:19:56,640 - datacenter_database - INFO - Creating rules table
+2025-08-13 17:19:56,688 - datacenter_database - INFO - Creating events table
+2025-08-13 17:19:56,741 - datacenter_database - INFO - Creating access_logs table
+2025-08-13 17:19:56,791 - datacenter_database - INFO - Creating views
+2025-08-13 17:19:56,873 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-13 17:20:02,361 - datacenter_database - ERROR - Error getting connection from pool: 1054 (42S22): Unknown column 'type' in 'field list'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 356, in execute_query
+    cursor.execute(query, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'type' in 'field list'
+2025-08-13 17:20:03,749 - datacenter_database - ERROR - Error getting connection from pool: 1054 (42S22): Unknown column 'type' in 'field list'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 356, in execute_query
+    cursor.execute(query, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'type' in 'field list'
+2025-08-13 17:20:05,098 - datacenter_database - ERROR - Error getting connection from pool: 1054 (42S22): Unknown column 'type' in 'field list'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 356, in execute_query
+    cursor.execute(query, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'type' in 'field list'
+2025-08-13 17:20:06,389 - datacenter_database - ERROR - Error getting connection from pool: 1054 (42S22): Unknown column 'type' in 'field list'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 356, in execute_query
+    cursor.execute(query, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'type' in 'field list'
+2025-08-13 17:20:07,696 - datacenter_database - ERROR - Error getting connection from pool: 1054 (42S22): Unknown column 'type' in 'field list'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 356, in execute_query
+    cursor.execute(query, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'type' in 'field list'
+2025-08-14 10:58:20,446 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 10:58:20,446 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 10:58:30,514 - datacenter_database - ERROR - Error connecting to MySQL: 2003: Can't connect to MySQL server on '34.93.87.255:3306' (timed out)
+2025-08-14 11:44:13,729 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 11:44:13,729 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 11:44:13,827 - datacenter_database - ERROR - Error connecting to MySQL: 2003: Can't connect to MySQL server on '34.93.87.255:3306' (Errno 10065: A socket operation was attempted to an unreachable host)
+2025-08-14 12:03:14,475 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 12:03:14,475 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 12:03:14,519 - datacenter_database - ERROR - Error connecting to MySQL: 2003: Can't connect to MySQL server on '34.93.87.255:3306' (Errno 10065: A socket operation was attempted to an unreachable host)
+2025-08-14 12:03:58,825 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 12:03:58,826 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 12:04:09,056 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 12:04:09,094 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 12:04:09,132 - datacenter_database - INFO - Creating users table
+2025-08-14 12:04:09,176 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 12:04:09,250 - datacenter_database - INFO - Creating cameras table
+2025-08-14 12:04:09,321 - datacenter_database - INFO - Creating zones table
+2025-08-14 12:04:09,370 - datacenter_database - INFO - Creating rules table
+2025-08-14 12:04:09,437 - datacenter_database - INFO - Creating events table
+2025-08-14 12:04:09,502 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 12:04:09,543 - datacenter_database - INFO - Creating views
+2025-08-14 12:04:09,642 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 12:04:12,519 - datacenter_database - ERROR - Error getting connection from pool: 1054 (42S22): Unknown column 'type' in 'field list'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 356, in execute_query
+    cursor.execute(query, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'type' in 'field list'
+2025-08-14 12:04:13,800 - datacenter_database - ERROR - Error getting connection from pool: 1054 (42S22): Unknown column 'type' in 'field list'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 356, in execute_query
+    cursor.execute(query, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'type' in 'field list'
+2025-08-14 12:04:14,761 - datacenter_database - ERROR - Error getting connection from pool: 1054 (42S22): Unknown column 'type' in 'field list'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 356, in execute_query
+    cursor.execute(query, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'type' in 'field list'
+2025-08-14 12:04:15,999 - datacenter_database - ERROR - Error getting connection from pool: 1054 (42S22): Unknown column 'type' in 'field list'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 356, in execute_query
+    cursor.execute(query, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'type' in 'field list'
+2025-08-14 12:04:17,003 - datacenter_database - ERROR - Error getting connection from pool: 1054 (42S22): Unknown column 'type' in 'field list'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 356, in execute_query
+    cursor.execute(query, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'type' in 'field list'
+2025-08-14 12:13:37,120 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 12:13:37,120 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 12:13:46,723 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 12:13:46,759 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 12:13:46,798 - datacenter_database - INFO - Creating users table
+2025-08-14 12:13:46,836 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 12:13:46,900 - datacenter_database - INFO - Creating cameras table
+2025-08-14 12:13:46,961 - datacenter_database - INFO - Creating zones table
+2025-08-14 12:13:47,008 - datacenter_database - INFO - Creating rules table
+2025-08-14 12:13:47,053 - datacenter_database - INFO - Creating events table
+2025-08-14 12:13:47,110 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 12:13:47,148 - datacenter_database - INFO - Creating views
+2025-08-14 12:13:47,239 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 12:26:02,776 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 12:26:02,776 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 12:26:12,386 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 12:26:12,424 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 12:26:12,462 - datacenter_database - INFO - Creating users table
+2025-08-14 12:26:12,503 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 12:26:12,565 - datacenter_database - INFO - Creating cameras table
+2025-08-14 12:26:12,630 - datacenter_database - INFO - Creating zones table
+2025-08-14 12:26:12,681 - datacenter_database - INFO - Creating rules table
+2025-08-14 12:26:12,729 - datacenter_database - INFO - Creating events table
+2025-08-14 12:26:12,794 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 12:26:12,837 - datacenter_database - INFO - Creating views
+2025-08-14 12:26:12,932 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 12:41:35,210 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 12:41:35,210 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 12:42:01,450 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 12:42:01,550 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 12:42:01,653 - datacenter_database - INFO - Creating users table
+2025-08-14 12:42:01,749 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 12:42:01,852 - datacenter_database - INFO - Creating cameras table
+2025-08-14 12:42:01,952 - datacenter_database - INFO - Creating zones table
+2025-08-14 12:42:02,051 - datacenter_database - INFO - Creating rules table
+2025-08-14 12:42:02,152 - datacenter_database - INFO - Creating events table
+2025-08-14 12:42:02,252 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 12:42:02,354 - datacenter_database - INFO - Creating views
+2025-08-14 12:42:02,554 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 12:50:35,853 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 12:50:35,853 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 12:51:03,483 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 12:51:03,582 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 12:51:03,684 - datacenter_database - INFO - Creating users table
+2025-08-14 12:51:03,784 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 12:51:03,891 - datacenter_database - INFO - Creating cameras table
+2025-08-14 12:51:03,988 - datacenter_database - INFO - Creating zones table
+2025-08-14 12:51:04,092 - datacenter_database - INFO - Creating rules table
+2025-08-14 12:51:04,194 - datacenter_database - INFO - Creating events table
+2025-08-14 12:51:04,298 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 12:51:04,399 - datacenter_database - INFO - Creating views
+2025-08-14 12:51:04,603 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 13:12:03,654 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 13:12:03,654 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 13:12:31,853 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 13:12:31,954 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 13:12:32,053 - datacenter_database - INFO - Creating users table
+2025-08-14 13:12:32,152 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 13:12:32,253 - datacenter_database - INFO - Creating cameras table
+2025-08-14 13:12:32,352 - datacenter_database - INFO - Creating zones table
+2025-08-14 13:12:32,453 - datacenter_database - INFO - Creating rules table
+2025-08-14 13:12:32,553 - datacenter_database - INFO - Creating events table
+2025-08-14 13:12:32,654 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 13:12:32,756 - datacenter_database - INFO - Creating views
+2025-08-14 13:12:32,957 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 13:27:23,630 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 13:27:23,630 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 13:33:24,208 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 13:33:24,208 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 13:33:50,292 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 13:33:50,392 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 13:33:50,493 - datacenter_database - INFO - Creating users table
+2025-08-14 13:33:50,593 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 13:33:50,695 - datacenter_database - INFO - Creating cameras table
+2025-08-14 13:33:50,793 - datacenter_database - INFO - Creating zones table
+2025-08-14 13:33:50,896 - datacenter_database - INFO - Creating rules table
+2025-08-14 13:33:50,995 - datacenter_database - INFO - Creating events table
+2025-08-14 13:33:51,097 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 13:33:51,199 - datacenter_database - INFO - Creating views
+2025-08-14 13:33:51,400 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 13:52:52,396 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 13:52:52,397 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 13:53:02,480 - datacenter_database - ERROR - Error connecting to MySQL: 2003: Can't connect to MySQL server on '34.93.87.255:3306' (timed out)
+2025-08-14 15:05:08,711 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 15:05:08,711 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 15:05:21,288 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 15:05:21,330 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 15:05:21,374 - datacenter_database - INFO - Creating users table
+2025-08-14 15:05:21,421 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 15:05:21,497 - datacenter_database - INFO - Creating cameras table
+2025-08-14 15:05:21,570 - datacenter_database - INFO - Creating zones table
+2025-08-14 15:05:21,625 - datacenter_database - INFO - Creating rules table
+2025-08-14 15:05:21,681 - datacenter_database - INFO - Creating events table
+2025-08-14 15:05:21,751 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 15:05:21,802 - datacenter_database - INFO - Creating views
+2025-08-14 15:05:21,913 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 16:06:27,937 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 16:06:27,937 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 16:06:39,953 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 16:06:40,003 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 16:06:40,063 - datacenter_database - INFO - Creating users table
+2025-08-14 16:06:40,126 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 16:06:40,322 - datacenter_database - INFO - Creating cameras table
+2025-08-14 16:06:40,410 - datacenter_database - INFO - Creating zones table
+2025-08-14 16:06:40,475 - datacenter_database - INFO - Creating rules table
+2025-08-14 16:06:40,545 - datacenter_database - INFO - Creating events table
+2025-08-14 16:06:40,629 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 16:06:40,692 - datacenter_database - INFO - Creating views
+2025-08-14 16:06:40,821 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 16:06:43,770 - datacenter_database - ERROR - Error getting connection from pool: 1054 (42S22): Unknown column 'z.coordinates' in 'field list'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\video_processor.py", line 378, in _get_camera_zones_for_use_case
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        SELECT z.zone_id, z.name, z.coordinates,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        AND (z.use_case = %s OR z.use_case IS NULL)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    """, (use_case, camera_id, use_case))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'z.coordinates' in 'field list'
+2025-08-14 16:06:45,563 - datacenter_database - ERROR - Error getting connection from pool: 1054 (42S22): Unknown column 'z.coordinates' in 'field list'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\video_processor.py", line 378, in _get_camera_zones_for_use_case
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        SELECT z.zone_id, z.name, z.coordinates,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        AND (z.use_case = %s OR z.use_case IS NULL)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    """, (use_case, camera_id, use_case))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'z.coordinates' in 'field list'
+2025-08-14 16:06:47,119 - datacenter_database - ERROR - Error getting connection from pool: 1054 (42S22): Unknown column 'z.coordinates' in 'field list'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\video_processor.py", line 378, in _get_camera_zones_for_use_case
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        SELECT z.zone_id, z.name, z.coordinates,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        AND (z.use_case = %s OR z.use_case IS NULL)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    """, (use_case, camera_id, use_case))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'z.coordinates' in 'field list'
+2025-08-14 16:06:48,612 - datacenter_database - ERROR - Error getting connection from pool: 1054 (42S22): Unknown column 'z.coordinates' in 'field list'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\video_processor.py", line 378, in _get_camera_zones_for_use_case
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        SELECT z.zone_id, z.name, z.coordinates,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        AND (z.use_case = %s OR z.use_case IS NULL)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    """, (use_case, camera_id, use_case))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'z.coordinates' in 'field list'
+2025-08-14 16:06:50,154 - datacenter_database - ERROR - Error getting connection from pool: 1054 (42S22): Unknown column 'z.coordinates' in 'field list'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\video_processor.py", line 378, in _get_camera_zones_for_use_case
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        SELECT z.zone_id, z.name, z.coordinates,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        AND (z.use_case = %s OR z.use_case IS NULL)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    """, (use_case, camera_id, use_case))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'z.coordinates' in 'field list'
+2025-08-14 16:15:30,628 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 16:15:30,629 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 16:15:43,954 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 16:15:44,008 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 16:15:44,064 - datacenter_database - INFO - Creating users table
+2025-08-14 16:15:44,129 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 16:15:44,211 - datacenter_database - INFO - Creating cameras table
+2025-08-14 16:15:44,292 - datacenter_database - INFO - Creating zones table
+2025-08-14 16:15:44,360 - datacenter_database - INFO - Creating rules table
+2025-08-14 16:15:44,426 - datacenter_database - INFO - Creating events table
+2025-08-14 16:15:44,506 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 16:15:44,559 - datacenter_database - INFO - Creating views
+2025-08-14 16:15:44,682 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 16:23:56,264 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 16:23:56,264 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 16:24:08,430 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 16:24:08,474 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 16:24:08,515 - datacenter_database - INFO - Creating users table
+2025-08-14 16:24:08,560 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 16:24:08,632 - datacenter_database - INFO - Creating cameras table
+2025-08-14 16:24:08,708 - datacenter_database - INFO - Creating zones table
+2025-08-14 16:24:08,762 - datacenter_database - INFO - Creating rules table
+2025-08-14 16:24:08,825 - datacenter_database - INFO - Creating events table
+2025-08-14 16:24:08,898 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 16:24:08,951 - datacenter_database - INFO - Creating views
+2025-08-14 16:24:09,056 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 16:30:28,847 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 16:30:28,847 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 16:30:40,617 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 16:30:40,658 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 16:30:40,698 - datacenter_database - INFO - Creating users table
+2025-08-14 16:30:40,745 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 16:30:40,819 - datacenter_database - INFO - Creating cameras table
+2025-08-14 16:30:40,884 - datacenter_database - INFO - Creating zones table
+2025-08-14 16:30:40,940 - datacenter_database - INFO - Creating rules table
+2025-08-14 16:30:41,000 - datacenter_database - INFO - Creating events table
+2025-08-14 16:30:41,068 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 16:30:41,112 - datacenter_database - INFO - Creating views
+2025-08-14 16:30:41,219 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 18:02:03,629 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 18:02:03,629 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 18:02:15,547 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 18:02:15,589 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 18:02:15,632 - datacenter_database - INFO - Creating users table
+2025-08-14 18:02:15,682 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 18:02:15,788 - datacenter_database - INFO - Creating cameras table
+2025-08-14 18:02:15,894 - datacenter_database - INFO - Creating zones table
+2025-08-14 18:02:15,995 - datacenter_database - INFO - Creating rules table
+2025-08-14 18:02:16,091 - datacenter_database - INFO - Creating events table
+2025-08-14 18:02:16,251 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 18:02:16,365 - datacenter_database - INFO - Creating views
+2025-08-14 18:02:16,478 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 18:03:24,628 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 18:03:24,628 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 18:03:36,276 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 18:03:36,314 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 18:03:36,353 - datacenter_database - INFO - Creating users table
+2025-08-14 18:03:36,400 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 18:03:36,465 - datacenter_database - INFO - Creating cameras table
+2025-08-14 18:03:36,531 - datacenter_database - INFO - Creating zones table
+2025-08-14 18:03:36,581 - datacenter_database - INFO - Creating rules table
+2025-08-14 18:03:36,632 - datacenter_database - INFO - Creating events table
+2025-08-14 18:03:36,703 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 18:03:36,747 - datacenter_database - INFO - Creating views
+2025-08-14 18:03:36,848 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 18:06:31,841 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 18:06:31,842 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 18:06:44,414 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 18:06:44,450 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 18:06:44,487 - datacenter_database - INFO - Creating users table
+2025-08-14 18:06:44,527 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 18:06:44,589 - datacenter_database - INFO - Creating cameras table
+2025-08-14 18:06:44,661 - datacenter_database - INFO - Creating zones table
+2025-08-14 18:06:44,710 - datacenter_database - INFO - Creating rules table
+2025-08-14 18:06:44,757 - datacenter_database - INFO - Creating events table
+2025-08-14 18:06:44,817 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 18:06:44,857 - datacenter_database - INFO - Creating views
+2025-08-14 18:06:44,951 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 18:19:03,446 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 18:19:03,446 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 18:19:15,639 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 18:19:15,681 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 18:19:15,746 - datacenter_database - INFO - Creating users table
+2025-08-14 18:19:15,790 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 18:19:15,857 - datacenter_database - INFO - Creating cameras table
+2025-08-14 18:19:15,937 - datacenter_database - INFO - Creating zones table
+2025-08-14 18:19:15,994 - datacenter_database - INFO - Creating rules table
+2025-08-14 18:19:16,050 - datacenter_database - INFO - Creating events table
+2025-08-14 18:19:16,118 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 18:19:16,162 - datacenter_database - INFO - Creating views
+2025-08-14 18:19:16,275 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 18:21:04,303 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 18:21:04,304 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 18:21:16,295 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 18:21:16,338 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 18:21:16,381 - datacenter_database - INFO - Creating users table
+2025-08-14 18:21:16,427 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 18:21:16,496 - datacenter_database - INFO - Creating cameras table
+2025-08-14 18:21:16,567 - datacenter_database - INFO - Creating zones table
+2025-08-14 18:21:16,629 - datacenter_database - INFO - Creating rules table
+2025-08-14 18:21:16,685 - datacenter_database - INFO - Creating events table
+2025-08-14 18:21:16,753 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 18:21:16,800 - datacenter_database - INFO - Creating views
+2025-08-14 18:21:16,910 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 18:21:17,312 - datacenter_database - ERROR - Error getting connection from pool: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`dc_test`.`datacenters`, CONSTRAINT `datacenters_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE)
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\main.py", line 256, in initialize_sample_data
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO datacenters (user_id, name, description, location, facility_type, status)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        VALUES (%s, %s, %s, %s, %s, 'active')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        ON DUPLICATE KEY UPDATE name = VALUES(name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    """, ('sample-user-id', dc['name'], dc['description'], dc['location'], dc['facility_type']))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.IntegrityError: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`dc_test`.`datacenters`, CONSTRAINT `datacenters_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE)
+2025-08-14 18:22:05,049 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 18:22:05,050 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 18:22:17,281 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 18:22:17,321 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 18:22:17,361 - datacenter_database - INFO - Creating users table
+2025-08-14 18:22:17,424 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 18:22:17,488 - datacenter_database - INFO - Creating cameras table
+2025-08-14 18:22:17,556 - datacenter_database - INFO - Creating zones table
+2025-08-14 18:22:17,612 - datacenter_database - INFO - Creating rules table
+2025-08-14 18:22:17,665 - datacenter_database - INFO - Creating events table
+2025-08-14 18:22:17,751 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 18:22:17,803 - datacenter_database - INFO - Creating views
+2025-08-14 18:22:17,933 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 18:32:50,474 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 18:32:50,474 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 18:33:05,194 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 18:33:05,243 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 18:33:05,299 - datacenter_database - INFO - Creating users table
+2025-08-14 18:33:05,351 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 18:33:05,424 - datacenter_database - INFO - Creating cameras table
+2025-08-14 18:33:05,499 - datacenter_database - INFO - Creating zones table
+2025-08-14 18:33:05,565 - datacenter_database - INFO - Creating rules table
+2025-08-14 18:33:05,623 - datacenter_database - INFO - Creating events table
+2025-08-14 18:33:05,727 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 18:33:05,781 - datacenter_database - INFO - Creating views
+2025-08-14 18:33:05,912 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 18:34:59,270 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 18:34:59,271 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 18:35:12,620 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 18:35:12,666 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 18:35:12,713 - datacenter_database - INFO - Creating users table
+2025-08-14 18:35:12,776 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 18:35:12,848 - datacenter_database - INFO - Creating cameras table
+2025-08-14 18:35:12,928 - datacenter_database - INFO - Creating zones table
+2025-08-14 18:35:12,992 - datacenter_database - INFO - Creating rules table
+2025-08-14 18:35:13,052 - datacenter_database - INFO - Creating events table
+2025-08-14 18:35:13,128 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 18:35:13,178 - datacenter_database - INFO - Creating views
+2025-08-14 18:35:13,291 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 18:43:36,258 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 18:43:36,258 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 18:43:49,195 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 18:43:49,242 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 18:43:49,289 - datacenter_database - INFO - Creating users table
+2025-08-14 18:43:49,389 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 18:43:49,497 - datacenter_database - INFO - Creating cameras table
+2025-08-14 18:43:49,607 - datacenter_database - INFO - Creating zones table
+2025-08-14 18:43:49,707 - datacenter_database - INFO - Creating rules table
+2025-08-14 18:43:49,812 - datacenter_database - INFO - Creating events table
+2025-08-14 18:43:49,953 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 18:43:50,068 - datacenter_database - INFO - Creating views
+2025-08-14 18:43:50,202 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 18:44:16,010 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 18:44:16,010 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 18:44:28,643 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 18:44:28,689 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 18:44:28,737 - datacenter_database - INFO - Creating users table
+2025-08-14 18:44:28,796 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 18:44:28,872 - datacenter_database - INFO - Creating cameras table
+2025-08-14 18:44:28,936 - datacenter_database - INFO - Creating zones table
+2025-08-14 18:44:28,996 - datacenter_database - INFO - Creating rules table
+2025-08-14 18:44:29,087 - datacenter_database - INFO - Creating events table
+2025-08-14 18:44:29,159 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 18:44:29,224 - datacenter_database - INFO - Creating views
+2025-08-14 18:44:29,341 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 18:44:29,733 - datacenter_database - ERROR - Error getting connection from pool: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`dc_test`.`datacenters`, CONSTRAINT `datacenters_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE)
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\main.py", line 256, in initialize_sample_data
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO datacenters (user_id, name, description, location, facility_type, status)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        VALUES (%s, %s, %s, %s, %s, 'active')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        ON DUPLICATE KEY UPDATE name = VALUES(name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    """, ('sample-user-id', dc['name'], dc['description'], dc['location'], dc['facility_type']))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.IntegrityError: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`dc_test`.`datacenters`, CONSTRAINT `datacenters_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE)
+2025-08-14 18:58:24,889 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 18:58:24,889 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 18:58:36,683 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 18:58:36,736 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 18:58:36,786 - datacenter_database - INFO - Creating users table
+2025-08-14 18:58:36,843 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 18:58:36,913 - datacenter_database - INFO - Creating cameras table
+2025-08-14 18:58:36,984 - datacenter_database - INFO - Creating zones table
+2025-08-14 18:58:37,048 - datacenter_database - INFO - Creating rules table
+2025-08-14 18:58:37,108 - datacenter_database - INFO - Creating events table
+2025-08-14 18:58:37,175 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 18:58:37,228 - datacenter_database - INFO - Creating views
+2025-08-14 18:58:37,349 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 18:58:37,985 - datacenter_database - ERROR - Error getting connection from pool: 1265 (01000): Data truncated for column 'camera_type' at row 1
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\main.py", line 319, in initialize_sample_data
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO cameras (camera_id, datacenter_id, name, stream_url, camera_type, metadata, status)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+            metadata = VALUES(metadata)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    """, (i, datacenter_id, cam['name'], cam['stream_url'], cam['camera_type'], json.dumps(metadata)))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.DatabaseError: 1265 (01000): Data truncated for column 'camera_type' at row 1
+2025-08-14 19:01:04,989 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 19:01:04,989 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 19:01:16,760 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 19:01:16,802 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 19:01:16,846 - datacenter_database - INFO - Creating users table
+2025-08-14 19:01:16,890 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 19:01:16,951 - datacenter_database - INFO - Creating cameras table
+2025-08-14 19:01:17,012 - datacenter_database - INFO - Creating zones table
+2025-08-14 19:01:17,069 - datacenter_database - INFO - Creating rules table
+2025-08-14 19:01:17,123 - datacenter_database - INFO - Creating events table
+2025-08-14 19:01:17,188 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 19:01:17,232 - datacenter_database - INFO - Creating views
+2025-08-14 19:01:17,336 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 19:01:17,929 - datacenter_database - ERROR - Error getting connection from pool: 1265 (01000): Data truncated for column 'camera_type' at row 1
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\main.py", line 319, in initialize_sample_data
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO cameras (camera_id, datacenter_id, name, stream_url, camera_type, metadata, status)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+            metadata = VALUES(metadata)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    """, (i, datacenter_id, cam['name'], cam['stream_url'], cam['camera_type'], json.dumps(metadata)))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.DatabaseError: 1265 (01000): Data truncated for column 'camera_type' at row 1
+2025-08-14 19:25:50,082 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 19:25:50,082 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 19:26:02,041 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 19:26:02,086 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 19:26:02,131 - datacenter_database - INFO - Creating users table
+2025-08-14 19:26:02,179 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 19:26:02,263 - datacenter_database - INFO - Creating cameras table
+2025-08-14 19:26:02,327 - datacenter_database - INFO - Creating zones table
+2025-08-14 19:26:02,384 - datacenter_database - INFO - Creating rules table
+2025-08-14 19:26:02,459 - datacenter_database - INFO - Creating events table
+2025-08-14 19:26:02,548 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 19:26:02,598 - datacenter_database - INFO - Creating views
+2025-08-14 19:26:02,710 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 19:26:03,146 - datacenter_database - ERROR - Error getting connection from pool: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`dc_test`.`datacenters`, CONSTRAINT `datacenters_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE)
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\main.py", line 380, in initialize_sample_data
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO datacenters (user_id, name, description, location, facility_type, status)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        VALUES (%s, %s, %s, %s, %s, 'active')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        ON DUPLICATE KEY UPDATE name = VALUES(name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    """, ('sample-user-id', dc['name'], dc['description'], dc['location'], dc['facility_type']))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.IntegrityError: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`dc_test`.`datacenters`, CONSTRAINT `datacenters_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE)
+2025-08-14 19:36:55,055 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-14 19:36:55,055 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-14 19:37:07,596 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-14 19:37:07,646 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-14 19:37:07,699 - datacenter_database - INFO - Creating users table
+2025-08-14 19:37:07,751 - datacenter_database - INFO - Creating datacenters table
+2025-08-14 19:37:07,821 - datacenter_database - INFO - Creating cameras table
+2025-08-14 19:37:07,888 - datacenter_database - INFO - Creating zones table
+2025-08-14 19:37:07,953 - datacenter_database - INFO - Creating rules table
+2025-08-14 19:37:08,014 - datacenter_database - INFO - Creating events table
+2025-08-14 19:37:08,083 - datacenter_database - INFO - Creating access_logs table
+2025-08-14 19:37:08,135 - datacenter_database - INFO - Creating views
+2025-08-14 19:37:08,254 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-14 19:37:08,703 - datacenter_database - ERROR - Error getting connection from pool: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`dc_test`.`datacenters`, CONSTRAINT `datacenters_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE)
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\main.py", line 380, in initialize_sample_data
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO datacenters (user_id, name, description, location, facility_type, status)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        VALUES (%s, %s, %s, %s, %s, 'active')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        ON DUPLICATE KEY UPDATE name = VALUES(name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    """, ('sample-user-id', dc['name'], dc['description'], dc['location'], dc['facility_type']))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.IntegrityError: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`dc_test`.`datacenters`, CONSTRAINT `datacenters_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE)
+2025-08-18 10:07:12,156 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-18 10:07:12,156 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-18 10:07:21,034 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-18 10:07:21,072 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-18 10:07:21,109 - datacenter_database - INFO - Creating users table
+2025-08-18 10:07:21,150 - datacenter_database - INFO - Creating datacenters table
+2025-08-18 10:07:21,214 - datacenter_database - INFO - Creating cameras table
+2025-08-18 10:07:21,270 - datacenter_database - INFO - Creating zones table
+2025-08-18 10:07:21,322 - datacenter_database - INFO - Creating rules table
+2025-08-18 10:07:21,370 - datacenter_database - INFO - Creating events table
+2025-08-18 10:07:21,429 - datacenter_database - INFO - Creating access_logs table
+2025-08-18 10:07:21,468 - datacenter_database - INFO - Creating views
+2025-08-18 10:07:21,569 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-18 12:22:23,065 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-18 12:22:23,065 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-18 12:22:32,636 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-18 12:22:32,673 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-18 12:22:32,718 - datacenter_database - INFO - Creating users table
+2025-08-18 12:22:32,763 - datacenter_database - INFO - Creating datacenters table
+2025-08-18 12:22:32,821 - datacenter_database - INFO - Creating cameras table
+2025-08-18 12:22:32,875 - datacenter_database - INFO - Creating zones table
+2025-08-18 12:22:32,928 - datacenter_database - INFO - Creating rules table
+2025-08-18 12:22:32,980 - datacenter_database - INFO - Creating events table
+2025-08-18 12:22:33,036 - datacenter_database - INFO - Creating access_logs table
+2025-08-18 12:22:33,077 - datacenter_database - INFO - Creating views
+2025-08-18 12:22:33,169 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-18 12:29:41,997 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-18 12:29:41,998 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-18 12:29:52,132 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-18 12:29:52,170 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-18 12:29:52,206 - datacenter_database - INFO - Creating users table
+2025-08-18 12:29:52,252 - datacenter_database - INFO - Creating datacenters table
+2025-08-18 12:29:52,312 - datacenter_database - INFO - Creating cameras table
+2025-08-18 12:29:52,369 - datacenter_database - INFO - Creating zones table
+2025-08-18 12:29:52,417 - datacenter_database - INFO - Creating rules table
+2025-08-18 12:29:52,464 - datacenter_database - INFO - Creating events table
+2025-08-18 12:29:52,521 - datacenter_database - INFO - Creating access_logs table
+2025-08-18 12:29:52,573 - datacenter_database - INFO - Creating views
+2025-08-18 12:29:52,671 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-18 12:40:48,923 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-18 12:40:48,924 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-18 12:41:00,098 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-18 12:41:00,131 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-18 12:41:00,164 - datacenter_database - INFO - Creating users table
+2025-08-18 12:41:00,200 - datacenter_database - INFO - Creating datacenters table
+2025-08-18 12:41:00,251 - datacenter_database - INFO - Creating cameras table
+2025-08-18 12:41:00,313 - datacenter_database - INFO - Creating zones table
+2025-08-18 12:41:00,361 - datacenter_database - INFO - Creating rules table
+2025-08-18 12:41:00,405 - datacenter_database - INFO - Creating events table
+2025-08-18 12:41:00,455 - datacenter_database - INFO - Creating access_logs table
+2025-08-18 12:41:00,491 - datacenter_database - INFO - Creating views
+2025-08-18 12:41:00,575 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-18 12:41:01,066 - datacenter_database - ERROR - Error getting connection from pool: 1265 (01000): Data truncated for column 'camera_type' at row 1
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\main.py", line 442, in initialize_sample_data
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO cameras (camera_id, datacenter_id, name, stream_url, camera_type, metadata, status)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+            metadata = VALUES(metadata)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    """, (i, datacenter_id, cam['name'], cam['stream_url'], cam['camera_type'], json.dumps(metadata)))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.DatabaseError: 1265 (01000): Data truncated for column 'camera_type' at row 1
+2025-08-18 13:08:31,305 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-18 13:08:31,305 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-18 13:08:44,376 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-18 13:08:44,410 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-18 13:08:44,459 - datacenter_database - INFO - Creating users table
+2025-08-18 13:08:44,508 - datacenter_database - INFO - Creating datacenters table
+2025-08-18 13:08:44,561 - datacenter_database - INFO - Creating cameras table
+2025-08-18 13:08:44,618 - datacenter_database - INFO - Creating zones table
+2025-08-18 13:08:44,661 - datacenter_database - INFO - Creating rules table
+2025-08-18 13:08:44,718 - datacenter_database - INFO - Creating events table
+2025-08-18 13:08:44,767 - datacenter_database - INFO - Creating access_logs table
+2025-08-18 13:08:44,802 - datacenter_database - INFO - Creating views
+2025-08-18 13:08:44,893 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-18 13:12:06,706 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-18 13:12:06,706 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-18 13:12:19,903 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-18 13:12:19,934 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-18 13:12:19,965 - datacenter_database - INFO - Creating users table
+2025-08-18 13:12:20,028 - datacenter_database - INFO - Creating datacenters table
+2025-08-18 13:12:20,086 - datacenter_database - INFO - Creating cameras table
+2025-08-18 13:12:20,138 - datacenter_database - INFO - Creating zones table
+2025-08-18 13:12:20,179 - datacenter_database - INFO - Creating rules table
+2025-08-18 13:12:20,226 - datacenter_database - INFO - Creating events table
+2025-08-18 13:12:20,300 - datacenter_database - INFO - Creating access_logs table
+2025-08-18 13:12:20,336 - datacenter_database - INFO - Creating views
+2025-08-18 13:12:20,437 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-18 13:29:40,543 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-18 13:29:40,545 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-18 13:29:50,663 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-18 13:29:50,703 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-18 13:29:50,739 - datacenter_database - INFO - Creating users table
+2025-08-18 13:29:50,778 - datacenter_database - INFO - Creating datacenters table
+2025-08-18 13:29:50,838 - datacenter_database - INFO - Creating cameras table
+2025-08-18 13:29:50,893 - datacenter_database - INFO - Creating zones table
+2025-08-18 13:29:50,941 - datacenter_database - INFO - Creating rules table
+2025-08-18 13:29:50,987 - datacenter_database - INFO - Creating events table
+2025-08-18 13:29:51,041 - datacenter_database - INFO - Creating access_logs table
+2025-08-18 13:29:51,085 - datacenter_database - INFO - Creating views
+2025-08-18 13:29:51,191 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-18 13:29:51,656 - datacenter_database - ERROR - Error getting connection from pool: 1265 (01000): Data truncated for column 'camera_type' at row 1
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\main.py", line 442, in initialize_sample_data
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO cameras (camera_id, datacenter_id, name, stream_url, camera_type, metadata, status)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+            metadata = VALUES(metadata)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    """, (i, datacenter_id, cam['name'], cam['stream_url'], cam['camera_type'], json.dumps(metadata)))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.DatabaseError: 1265 (01000): Data truncated for column 'camera_type' at row 1
+2025-08-18 14:44:55,671 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-18 14:44:55,672 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-18 14:45:06,664 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-18 14:45:06,706 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-18 14:45:06,744 - datacenter_database - INFO - Creating users table
+2025-08-18 14:45:06,791 - datacenter_database - INFO - Creating datacenters table
+2025-08-18 14:45:06,867 - datacenter_database - INFO - Creating cameras table
+2025-08-18 14:45:06,923 - datacenter_database - INFO - Creating zones table
+2025-08-18 14:45:06,977 - datacenter_database - INFO - Creating rules table
+2025-08-18 14:45:07,034 - datacenter_database - INFO - Creating events table
+2025-08-18 14:45:07,110 - datacenter_database - INFO - Creating access_logs table
+2025-08-18 14:45:07,150 - datacenter_database - INFO - Creating views
+2025-08-18 14:45:07,249 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-18 14:45:07,719 - datacenter_database - ERROR - Error getting connection from pool: 1265 (01000): Data truncated for column 'camera_type' at row 1
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 86, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\main.py", line 442, in initialize_sample_data
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO cameras (camera_id, datacenter_id, name, stream_url, camera_type, metadata, status)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+            metadata = VALUES(metadata)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    """, (i, datacenter_id, cam['name'], cam['stream_url'], cam['camera_type'], json.dumps(metadata)))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.DatabaseError: 1265 (01000): Data truncated for column 'camera_type' at row 1
+2025-08-18 14:54:28,349 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-18 14:54:28,349 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-18 14:54:37,962 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-18 14:54:38,000 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-18 14:54:38,039 - datacenter_database - INFO - Creating users table
+2025-08-18 14:54:38,130 - datacenter_database - INFO - Creating datacenters table
+2025-08-18 14:54:38,230 - datacenter_database - INFO - Creating cameras table
+2025-08-18 14:54:38,323 - datacenter_database - INFO - Creating zones table
+2025-08-18 14:54:38,420 - datacenter_database - INFO - Creating rules table
+2025-08-18 14:54:38,518 - datacenter_database - INFO - Creating events table
+2025-08-18 14:54:38,654 - datacenter_database - INFO - Creating access_logs table
+2025-08-18 14:54:38,756 - datacenter_database - INFO - Creating views
+2025-08-18 14:54:38,856 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-18 14:55:32,228 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-18 14:55:32,228 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-18 14:55:42,123 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-18 14:55:42,166 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-18 14:55:42,210 - datacenter_database - INFO - Creating users table
+2025-08-18 14:55:42,259 - datacenter_database - INFO - Creating datacenters table
+2025-08-18 14:55:42,318 - datacenter_database - INFO - Creating cameras table
+2025-08-18 14:55:42,374 - datacenter_database - INFO - Creating zones table
+2025-08-18 14:55:42,426 - datacenter_database - INFO - Creating rules table
+2025-08-18 14:55:42,473 - datacenter_database - INFO - Creating events table
+2025-08-18 14:55:42,530 - datacenter_database - INFO - Creating access_logs table
+2025-08-18 14:55:42,570 - datacenter_database - INFO - Creating views
+2025-08-18 14:55:42,660 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-18 14:56:09,344 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-18 14:56:09,344 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-18 14:56:18,923 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-18 14:56:18,953 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-18 14:56:18,982 - datacenter_database - INFO - Creating users table
+2025-08-18 14:56:19,014 - datacenter_database - INFO - Creating datacenters table
+2025-08-18 14:56:19,065 - datacenter_database - INFO - Creating cameras table
+2025-08-18 14:56:19,112 - datacenter_database - INFO - Creating zones table
+2025-08-18 14:56:19,153 - datacenter_database - INFO - Creating rules table
+2025-08-18 14:56:19,196 - datacenter_database - INFO - Creating events table
+2025-08-18 14:56:19,242 - datacenter_database - INFO - Creating access_logs table
+2025-08-18 14:56:19,272 - datacenter_database - INFO - Creating views
+2025-08-18 14:56:19,348 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-18 15:03:03,139 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-18 15:03:03,139 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-18 15:03:13,340 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-18 15:03:13,375 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-18 15:03:13,413 - datacenter_database - INFO - Creating users table
+2025-08-18 15:03:13,453 - datacenter_database - INFO - Creating datacenters table
+2025-08-18 15:03:13,516 - datacenter_database - INFO - Creating cameras table
+2025-08-18 15:03:13,570 - datacenter_database - INFO - Creating zones table
+2025-08-18 15:03:13,627 - datacenter_database - INFO - Creating rules table
+2025-08-18 15:03:13,676 - datacenter_database - INFO - Creating events table
+2025-08-18 15:03:13,735 - datacenter_database - INFO - Creating access_logs table
+2025-08-18 15:03:13,774 - datacenter_database - INFO - Creating views
+2025-08-18 15:03:13,873 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-18 16:06:22,027 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-18 16:06:22,027 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-18 16:06:31,627 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-18 16:06:31,659 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-18 16:06:31,691 - datacenter_database - INFO - Creating users table
+2025-08-18 16:06:31,729 - datacenter_database - INFO - Creating datacenters table
+2025-08-18 16:06:31,786 - datacenter_database - INFO - Creating cameras table
+2025-08-18 16:06:31,836 - datacenter_database - INFO - Creating zones table
+2025-08-18 16:06:31,881 - datacenter_database - INFO - Creating rules table
+2025-08-18 16:06:31,927 - datacenter_database - INFO - Creating events table
+2025-08-18 16:06:31,975 - datacenter_database - INFO - Creating access_logs table
+2025-08-18 16:06:32,009 - datacenter_database - INFO - Creating views
+2025-08-18 16:06:32,095 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-18 16:55:43,709 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-18 16:55:43,709 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-18 16:55:53,242 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-18 16:55:53,267 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-18 16:55:53,299 - datacenter_database - INFO - Creating users table
+2025-08-18 16:55:53,329 - datacenter_database - INFO - Creating datacenters table
+2025-08-18 16:55:53,379 - datacenter_database - INFO - Creating cameras table
+2025-08-18 16:55:53,422 - datacenter_database - INFO - Creating zones table
+2025-08-18 16:55:53,459 - datacenter_database - INFO - Creating rules table
+2025-08-18 16:55:53,498 - datacenter_database - INFO - Creating events table
+2025-08-18 16:55:53,547 - datacenter_database - INFO - Creating access_logs table
+2025-08-18 16:55:53,575 - datacenter_database - INFO - Creating views
+2025-08-18 16:55:53,643 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-18 17:09:46,231 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-18 17:09:46,232 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-18 17:09:55,311 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-18 17:09:55,348 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-18 17:09:55,384 - datacenter_database - INFO - Creating users table
+2025-08-18 17:09:55,422 - datacenter_database - INFO - Creating datacenters table
+2025-08-18 17:09:55,489 - datacenter_database - INFO - Creating cameras table
+2025-08-18 17:09:55,542 - datacenter_database - INFO - Creating zones table
+2025-08-18 17:09:55,592 - datacenter_database - INFO - Creating rules table
+2025-08-18 17:09:55,640 - datacenter_database - INFO - Creating events table
+2025-08-18 17:09:55,693 - datacenter_database - INFO - Creating access_logs table
+2025-08-18 17:09:55,730 - datacenter_database - INFO - Creating views
+2025-08-18 17:09:55,833 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-18 17:18:15,964 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-18 17:18:15,965 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-18 17:18:28,319 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-18 17:18:28,361 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-18 17:18:28,407 - datacenter_database - INFO - Creating users table
+2025-08-18 17:18:28,461 - datacenter_database - INFO - Creating datacenters table
+2025-08-18 17:18:28,829 - datacenter_database - INFO - Creating cameras table
+2025-08-18 17:18:28,875 - datacenter_database - INFO - Creating zones table
+2025-08-18 17:18:28,929 - datacenter_database - INFO - Creating rules table
+2025-08-18 17:18:28,967 - datacenter_database - INFO - Creating events table
+2025-08-18 17:18:29,009 - datacenter_database - INFO - Creating access_logs table
+2025-08-18 17:18:29,038 - datacenter_database - INFO - Creating views
+2025-08-18 17:18:29,115 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-18 17:23:46,012 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-18 17:23:46,012 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-18 17:23:55,048 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-18 17:23:55,082 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-18 17:23:55,116 - datacenter_database - INFO - Creating users table
+2025-08-18 17:23:55,153 - datacenter_database - INFO - Creating datacenters table
+2025-08-18 17:23:55,210 - datacenter_database - INFO - Creating cameras table
+2025-08-18 17:23:55,268 - datacenter_database - INFO - Creating zones table
+2025-08-18 17:23:55,315 - datacenter_database - INFO - Creating rules table
+2025-08-18 17:23:55,358 - datacenter_database - INFO - Creating events table
+2025-08-18 17:23:55,406 - datacenter_database - INFO - Creating access_logs table
+2025-08-18 17:23:55,443 - datacenter_database - INFO - Creating views
+2025-08-18 17:23:55,531 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-18 17:24:16,783 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-18 17:24:16,783 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-18 17:24:26,083 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-18 17:24:26,119 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-18 17:24:26,154 - datacenter_database - INFO - Creating users table
+2025-08-18 17:24:26,244 - datacenter_database - INFO - Creating datacenters table
+2025-08-18 17:24:26,339 - datacenter_database - INFO - Creating cameras table
+2025-08-18 17:24:26,430 - datacenter_database - INFO - Creating zones table
+2025-08-18 17:24:26,541 - datacenter_database - INFO - Creating rules table
+2025-08-18 17:24:26,632 - datacenter_database - INFO - Creating events table
+2025-08-18 17:24:26,752 - datacenter_database - INFO - Creating access_logs table
+2025-08-18 17:24:26,855 - datacenter_database - INFO - Creating views
+2025-08-18 17:24:26,950 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-18 17:24:42,580 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-18 17:24:42,580 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-18 17:24:51,556 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-18 17:24:51,600 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-18 17:24:51,641 - datacenter_database - INFO - Creating users table
+2025-08-18 17:24:51,678 - datacenter_database - INFO - Creating datacenters table
+2025-08-18 17:24:51,728 - datacenter_database - INFO - Creating cameras table
+2025-08-18 17:24:51,774 - datacenter_database - INFO - Creating zones table
+2025-08-18 17:24:51,816 - datacenter_database - INFO - Creating rules table
+2025-08-18 17:24:51,857 - datacenter_database - INFO - Creating events table
+2025-08-18 17:24:51,904 - datacenter_database - INFO - Creating access_logs table
+2025-08-18 17:24:51,941 - datacenter_database - INFO - Creating views
+2025-08-18 17:24:52,021 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-18 17:25:01,666 - datacenter_database - INFO - Initializing datacenter database connection
+2025-08-18 17:25:01,667 - datacenter_database - INFO - Creating connection pool to MySQL at 34.93.87.255:3306
+2025-08-18 17:25:10,560 - datacenter_database - INFO - Datacenter database connection pool created successfully
+2025-08-18 17:25:10,590 - datacenter_database - INFO - Creating database tables for datacenter monitoring
+2025-08-18 17:25:10,623 - datacenter_database - INFO - Creating users table
+2025-08-18 17:25:10,657 - datacenter_database - INFO - Creating datacenters table
+2025-08-18 17:25:10,709 - datacenter_database - INFO - Creating cameras table
+2025-08-18 17:25:10,758 - datacenter_database - INFO - Creating zones table
+2025-08-18 17:25:10,801 - datacenter_database - INFO - Creating rules table
+2025-08-18 17:25:10,844 - datacenter_database - INFO - Creating events table
+2025-08-18 17:25:10,892 - datacenter_database - INFO - Creating access_logs table
+2025-08-18 17:25:10,925 - datacenter_database - INFO - Creating views
+2025-08-18 17:25:11,007 - datacenter_database - INFO - Datacenter database tables created successfully
+2025-08-18 17:25:11,598 - datacenter_database - ERROR - Error getting connection from pool: 1265 (01000): Data truncated for column 'facility_type' at row 1
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 87, in get_connection
+    yield conn
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\main.py", line 302, in initialize_sample_data
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO datacenters (name, description, location, facility_type, status, created_at)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        VALUES (%(name)s, %(description)s, %(location)s, %(facility_type)s, %(status)s, NOW())
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    """, dc)
+    ^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\cursor.py", line 418, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        read_timeout=self._read_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        write_timeout=self._write_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+        self._send_cmd(
+    ...<6 lines>...
+        write_timeout,
+    )
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.DatabaseError: 1265 (01000): Data truncated for column 'facility_type' at row 1

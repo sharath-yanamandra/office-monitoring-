@@ -1,0 +1,48 @@
+2025-08-18 14:56:29,405 - datacenter_camera_model_10 - INFO - Initializing datacenter camera model base for camera 10
+2025-08-18 14:56:29,712 - datacenter_camera_model_10 - INFO - Datacenter camera model base initialized for camera 10 in datacenter 1
+2025-08-18 14:56:29,713 - datacenter_camera_model_10 - INFO - Initializing IntrusionZoneMonitor with detailed logging
+2025-08-18 14:56:29,713 - datacenter_camera_model_10 - INFO - Loaded 0 intrusion zones
+2025-08-18 14:56:30,564 - datacenter_camera_model_10 - INFO - Initializing datacenter camera model base for camera 10
+2025-08-18 14:56:30,995 - datacenter_camera_model_10 - INFO - Datacenter camera model base initialized for camera 10 in datacenter 1
+2025-08-18 14:56:30,996 - datacenter_camera_model_10 - INFO - Initializing LoiteringZoneMonitor with detailed logging
+2025-08-18 14:56:30,996 - datacenter_camera_model_10 - INFO - Loaded 0 loitering zones
+2025-08-18 15:03:23,834 - datacenter_camera_model_10 - INFO - Initializing datacenter camera model base for camera 10
+2025-08-18 15:03:24,327 - datacenter_camera_model_10 - INFO - Datacenter camera model base initialized for camera 10 in datacenter 1
+2025-08-18 15:03:24,328 - datacenter_camera_model_10 - INFO - Initializing IntrusionZoneMonitor with detailed logging
+2025-08-18 15:03:24,329 - datacenter_camera_model_10 - INFO - Loaded 0 intrusion zones
+2025-08-18 15:03:25,088 - datacenter_camera_model_10 - INFO - Initializing datacenter camera model base for camera 10
+2025-08-18 15:03:25,418 - datacenter_camera_model_10 - INFO - Datacenter camera model base initialized for camera 10 in datacenter 1
+2025-08-18 15:03:25,418 - datacenter_camera_model_10 - INFO - Initializing LoiteringZoneMonitor with detailed logging
+2025-08-18 15:03:25,419 - datacenter_camera_model_10 - INFO - Loaded 0 loitering zones
+2025-08-18 16:06:41,708 - datacenter_camera_model_10 - INFO - Initializing datacenter camera model base for camera 10
+2025-08-18 16:06:42,076 - datacenter_camera_model_10 - INFO - Datacenter camera model base initialized for camera 10 in datacenter 1
+2025-08-18 16:06:42,077 - datacenter_camera_model_10 - INFO - Initializing IntrusionZoneMonitor with detailed logging
+2025-08-18 16:06:42,078 - datacenter_camera_model_10 - INFO - Loaded 0 intrusion zones
+2025-08-18 16:06:42,888 - datacenter_camera_model_10 - INFO - Initializing datacenter camera model base for camera 10
+2025-08-18 16:06:43,292 - datacenter_camera_model_10 - INFO - Datacenter camera model base initialized for camera 10 in datacenter 1
+2025-08-18 16:06:43,293 - datacenter_camera_model_10 - INFO - Initializing LoiteringZoneMonitor with detailed logging
+2025-08-18 16:06:43,294 - datacenter_camera_model_10 - INFO - Loaded 0 loitering zones
+2025-08-18 16:56:03,074 - datacenter_camera_model_10 - INFO - Initializing datacenter camera model base for camera 10
+2025-08-18 16:56:03,423 - datacenter_camera_model_10 - INFO - Datacenter camera model base initialized for camera 10 in datacenter 1
+2025-08-18 16:56:03,424 - datacenter_camera_model_10 - INFO - Initializing IntrusionZoneMonitor with detailed logging
+2025-08-18 16:56:03,424 - datacenter_camera_model_10 - INFO - Loaded 0 intrusion zones
+2025-08-18 16:56:04,224 - datacenter_camera_model_10 - INFO - Initializing datacenter camera model base for camera 10
+2025-08-18 16:56:04,632 - datacenter_camera_model_10 - INFO - Datacenter camera model base initialized for camera 10 in datacenter 1
+2025-08-18 16:56:04,633 - datacenter_camera_model_10 - INFO - Initializing LoiteringZoneMonitor with detailed logging
+2025-08-18 16:56:04,634 - datacenter_camera_model_10 - INFO - Loaded 0 loitering zones
+2025-08-18 17:10:05,287 - datacenter_camera_model_10 - INFO - Initializing datacenter camera model base for camera 10
+2025-08-18 17:10:05,589 - datacenter_camera_model_10 - INFO - Datacenter camera model base initialized for camera 10 in datacenter 1
+2025-08-18 17:10:05,590 - datacenter_camera_model_10 - INFO - Initializing IntrusionZoneMonitor with detailed logging
+2025-08-18 17:10:05,590 - datacenter_camera_model_10 - INFO - Loaded 0 intrusion zones
+2025-08-18 17:10:06,290 - datacenter_camera_model_10 - INFO - Initializing datacenter camera model base for camera 10
+2025-08-18 17:10:06,580 - datacenter_camera_model_10 - INFO - Datacenter camera model base initialized for camera 10 in datacenter 1
+2025-08-18 17:10:06,580 - datacenter_camera_model_10 - INFO - Initializing LoiteringZoneMonitor with detailed logging
+2025-08-18 17:10:06,581 - datacenter_camera_model_10 - INFO - Loaded 0 loitering zones
+2025-08-18 17:18:38,654 - datacenter_camera_model_10 - INFO - Initializing datacenter camera model base for camera 10
+2025-08-18 17:18:38,932 - datacenter_camera_model_10 - INFO - Datacenter camera model base initialized for camera 10 in datacenter 1
+2025-08-18 17:18:38,933 - datacenter_camera_model_10 - INFO - Initializing IntrusionZoneMonitor with detailed logging
+2025-08-18 17:18:38,933 - datacenter_camera_model_10 - INFO - Loaded 0 intrusion zones
+2025-08-18 17:18:39,656 - datacenter_camera_model_10 - INFO - Initializing datacenter camera model base for camera 10
+2025-08-18 17:18:39,995 - datacenter_camera_model_10 - INFO - Datacenter camera model base initialized for camera 10 in datacenter 1
+2025-08-18 17:18:39,996 - datacenter_camera_model_10 - INFO - Initializing LoiteringZoneMonitor with detailed logging
+2025-08-18 17:18:39,996 - datacenter_camera_model_10 - INFO - Loaded 0 loitering zones

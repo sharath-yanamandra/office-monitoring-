@@ -1,0 +1,393 @@
+2025-08-13 15:32:25,858 - datacenter_main - ERROR - Fatal error in main monitoring: attempted relative import with no known parent package
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\main.py", line 353, in main_monitor
+    db = DatacenterDatabase()
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 31, in __new__
+    cls._instance._initialize()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 36, in _initialize
+    from .logger import setup_logger
+ImportError: attempted relative import with no known parent package
+2025-08-13 15:39:31,907 - datacenter_main - ERROR - Fatal error in main monitoring: 2003: Can't connect to MySQL server on '34.93.87.255:3306' (Errno 10053: An established connection was aborted by the software in your host machine)
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\network.py", line 795, in open_connection
+    self.sock.connect(sockaddr)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\main.py", line 353, in main_monitor
+    db = DatacenterDatabase()
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 31, in __new__
+    cls._instance._initialize()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 41, in _initialize
+    self._create_pool()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 69, in _create_pool
+    self._pool = MySQLConnectionPool(**pool_config)
+                 ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\pooling.py", line 490, in __init__
+    self.add_connection()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\pooling.py", line 613, in add_connection
+    cnx = connect(**self._cnx_config)  # type: ignore[assignment]
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\pooling.py", line 323, in connect
+    return MySQLConnection(*args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 185, in __init__
+    self.connect(**kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\abstracts.py", line 1605, in connect
+    self._open_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 411, in _open_connection
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 382, in _open_connection
+    self._socket.open_connection()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\network.py", line 806, in open_connection
+    raise InterfaceError(
+    ...<2 lines>...
+    ) from err
+mysql.connector.errors.InterfaceError: 2003: Can't connect to MySQL server on '34.93.87.255:3306' (Errno 10053: An established connection was aborted by the software in your host machine)
+2025-08-13 16:51:47,019 - datacenter_main - ERROR - Fatal error in main monitoring: type object 'Config' has no attribute 'POSE_ENABLED'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\main.py", line 372, in main_monitor
+    processor = DatacenterVideoProcessor(datacenter_id=args.datacenter_id)
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\video_processor.py", line 96, in __init__
+    self.model_manager = DatacenterSingleGPUModelManager()
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\model_manager.py", line 170, in __init__
+    self._initialize_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\model_manager.py", line 228, in _initialize_models
+    if Config.POSE_ENABLED and hasattr(Config, 'POSE_ESTIMATION_MODEL_PATH'):
+       ^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'Config' has no attribute 'POSE_ENABLED'
+2025-08-13 16:58:37,564 - datacenter_main - ERROR - Fatal error in main monitoring: type object 'Config' has no attribute 'BUCKET_NAME'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\main.py", line 372, in main_monitor
+    processor = DatacenterVideoProcessor(datacenter_id=args.datacenter_id)
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\video_processor.py", line 98, in __init__
+    self.storage_handler = DatacenterStorageHandler()
+                           ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\storage_handler.py", line 80, in __init__
+    self.bucket_name = bucket_name or Config.BUCKET_NAME
+                                      ^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'Config' has no attribute 'BUCKET_NAME'. Did you mean: 'GCP_BUCKET_NAME'?
+2025-08-13 17:02:51,257 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-13 17:02:52,287 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-13 17:02:53,292 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-13 17:02:54,300 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-13 17:02:55,317 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-13 17:02:56,324 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-13 17:02:57,333 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-13 17:02:58,349 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-13 17:02:59,353 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-13 17:03:00,372 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-13 17:03:01,383 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-13 17:03:02,393 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-13 17:03:03,410 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-13 17:03:04,427 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-13 17:03:05,430 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-13 17:03:06,444 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-13 17:03:07,456 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-13 17:03:08,468 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-14 10:58:30,515 - datacenter_main - ERROR - Fatal error in main monitoring: 2003: Can't connect to MySQL server on '34.93.87.255:3306' (timed out)
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\network.py", line 795, in open_connection
+    self.sock.connect(sockaddr)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\main.py", line 354, in main_monitor
+    db = DatacenterDatabase()
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 31, in __new__
+    cls._instance._initialize()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 41, in _initialize
+    self._create_pool()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 69, in _create_pool
+    self._pool = MySQLConnectionPool(**pool_config)
+                 ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\pooling.py", line 490, in __init__
+    self.add_connection()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\pooling.py", line 613, in add_connection
+    cnx = connect(**self._cnx_config)  # type: ignore[assignment]
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\pooling.py", line 323, in connect
+    return MySQLConnection(*args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 185, in __init__
+    self.connect(**kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\abstracts.py", line 1605, in connect
+    self._open_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 411, in _open_connection
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 382, in _open_connection
+    self._socket.open_connection()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\network.py", line 797, in open_connection
+    raise ConnectionTimeoutError(
+    ...<6 lines>...
+    ) from err
+mysql.connector.errors.ConnectionTimeoutError: 2003: Can't connect to MySQL server on '34.93.87.255:3306' (timed out)
+2025-08-14 11:44:13,827 - datacenter_main - ERROR - Fatal error in main monitoring: 2003: Can't connect to MySQL server on '34.93.87.255:3306' (Errno 10065: A socket operation was attempted to an unreachable host)
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\network.py", line 795, in open_connection
+    self.sock.connect(sockaddr)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+OSError: [WinError 10065] A socket operation was attempted to an unreachable host
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\main.py", line 354, in main_monitor
+    db = DatacenterDatabase()
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 31, in __new__
+    cls._instance._initialize()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 41, in _initialize
+    self._create_pool()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 69, in _create_pool
+    self._pool = MySQLConnectionPool(**pool_config)
+                 ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\pooling.py", line 490, in __init__
+    self.add_connection()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\pooling.py", line 613, in add_connection
+    cnx = connect(**self._cnx_config)  # type: ignore[assignment]
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\pooling.py", line 323, in connect
+    return MySQLConnection(*args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 185, in __init__
+    self.connect(**kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\abstracts.py", line 1605, in connect
+    self._open_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 411, in _open_connection
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 382, in _open_connection
+    self._socket.open_connection()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\network.py", line 806, in open_connection
+    raise InterfaceError(
+    ...<2 lines>...
+    ) from err
+mysql.connector.errors.InterfaceError: 2003: Can't connect to MySQL server on '34.93.87.255:3306' (Errno 10065: A socket operation was attempted to an unreachable host)
+2025-08-14 12:03:14,520 - datacenter_main - ERROR - Fatal error in main monitoring: 2003: Can't connect to MySQL server on '34.93.87.255:3306' (Errno 10065: A socket operation was attempted to an unreachable host)
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\network.py", line 795, in open_connection
+    self.sock.connect(sockaddr)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+OSError: [WinError 10065] A socket operation was attempted to an unreachable host
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\main.py", line 354, in main_monitor
+    db = DatacenterDatabase()
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 31, in __new__
+    cls._instance._initialize()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 41, in _initialize
+    self._create_pool()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 69, in _create_pool
+    self._pool = MySQLConnectionPool(**pool_config)
+                 ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\pooling.py", line 490, in __init__
+    self.add_connection()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\pooling.py", line 613, in add_connection
+    cnx = connect(**self._cnx_config)  # type: ignore[assignment]
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\pooling.py", line 323, in connect
+    return MySQLConnection(*args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 185, in __init__
+    self.connect(**kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\abstracts.py", line 1605, in connect
+    self._open_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 411, in _open_connection
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 382, in _open_connection
+    self._socket.open_connection()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\network.py", line 806, in open_connection
+    raise InterfaceError(
+    ...<2 lines>...
+    ) from err
+mysql.connector.errors.InterfaceError: 2003: Can't connect to MySQL server on '34.93.87.255:3306' (Errno 10065: A socket operation was attempted to an unreachable host)
+2025-08-14 12:04:48,372 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-14 12:04:49,384 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-14 12:04:50,398 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-14 12:04:51,400 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-14 12:04:52,414 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-14 12:04:53,428 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-14 12:04:54,432 - datacenter_main - ERROR - Error in monitoring loop: 'DatacenterVideoProcessor' object has no attribute 'get_system_stats'
+2025-08-14 12:14:25,282 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:14:26,298 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:14:27,299 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:14:28,316 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:14:29,331 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:14:30,347 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:14:31,349 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:14:32,363 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:14:33,380 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:14:34,397 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:26:51,281 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:26:52,298 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:26:53,301 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:26:54,315 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:26:55,330 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:26:56,346 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:26:57,348 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:26:58,350 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:26:59,355 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:27:00,365 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:27:01,372 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:27:02,381 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:27:03,383 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:27:04,398 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:42:54,557 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:42:55,559 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:42:56,564 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:42:57,566 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:42:58,579 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:51:57,876 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:51:58,882 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:51:59,886 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:52:00,891 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 12:52:01,897 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 13:13:25,624 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 13:13:26,633 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 13:13:27,647 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 13:13:28,651 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 13:13:29,659 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 13:13:30,674 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 13:13:31,678 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 13:34:44,502 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 13:34:45,509 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 13:34:46,523 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 13:34:47,531 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 13:34:48,541 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 13:34:49,550 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 13:34:50,556 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 13:53:02,481 - datacenter_main - ERROR - Fatal error in main monitoring: 2003: Can't connect to MySQL server on '34.93.87.255:3306' (timed out)
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\network.py", line 795, in open_connection
+    self.sock.connect(sockaddr)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\main.py", line 354, in main_monitor
+    db = DatacenterDatabase()
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 31, in __new__
+    cls._instance._initialize()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 41, in _initialize
+    self._create_pool()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\Desktop\Datacenter full integration\src\database.py", line 69, in _create_pool
+    self._pool = MySQLConnectionPool(**pool_config)
+                 ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\pooling.py", line 490, in __init__
+    self.add_connection()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\pooling.py", line 613, in add_connection
+    cnx = connect(**self._cnx_config)  # type: ignore[assignment]
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\pooling.py", line 323, in connect
+    return MySQLConnection(*args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 185, in __init__
+    self.connect(**kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\abstracts.py", line 1605, in connect
+    self._open_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 411, in _open_connection
+    raise err
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\connection.py", line 382, in _open_connection
+    self._socket.open_connection()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\mysql\connector\network.py", line 797, in open_connection
+    raise ConnectionTimeoutError(
+    ...<6 lines>...
+    ) from err
+mysql.connector.errors.ConnectionTimeoutError: 2003: Can't connect to MySQL server on '34.93.87.255:3306' (timed out)
+2025-08-14 15:06:01,579 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 15:06:02,589 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 15:06:03,591 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 15:06:04,592 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 15:06:05,606 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 15:06:06,622 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 15:06:07,631 - datacenter_main - ERROR - Error in monitoring loop: 'system'
+2025-08-14 16:06:51,446 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:06:52,456 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:06:53,462 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:06:54,478 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:06:55,493 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:06:56,502 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:06:57,509 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:06:58,513 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:06:59,530 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:07:00,546 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:07:01,553 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:07:02,570 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:07:03,579 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:07:04,594 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:07:05,595 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:07:06,611 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:07:07,626 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:07:08,643 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:07:09,653 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:07:10,661 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:07:11,663 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:07:12,678 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:07:13,694 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:07:14,695 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:07:15,711 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:07:16,727 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:07:17,729 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:07:18,745 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:07:19,761 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:07:20,763 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:07:21,778 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:07:22,793 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:07:23,796 - datacenter_main - ERROR - Processor method error: 'DatacenterCameraManager' object has no attribute 'is_camera_active'
+2025-08-14 16:24:48,458 - datacenter_main - INFO - System Status - Cameras: 6/6, Uptime: 37s, Frames: 0, Events: 0
+2025-08-14 16:25:18,722 - datacenter_main - INFO - System Status - Cameras: 6/6, Uptime: 67s, Frames: 0, Events: 0
+2025-08-14 16:31:20,417 - datacenter_main - INFO - System Status - Cameras: 6/6, Uptime: 37s, Frames: 0, Events: 0
+2025-08-14 18:02:17,181 - datacenter_main - ERROR - Datacenter 3 not found
+2025-08-14 18:04:07,990 - datacenter_main - INFO - System Status - Cameras: 0/0, Uptime: 30s, Frames: 0, Events: 0
+2025-08-14 18:04:38,200 - datacenter_main - INFO - System Status - Cameras: 0/0, Uptime: 60s, Frames: 0, Events: 0
+2025-08-14 18:05:08,466 - datacenter_main - INFO - System Status - Cameras: 0/0, Uptime: 90s, Frames: 0, Events: 0
+2025-08-14 18:06:45,671 - datacenter_main - ERROR - Datacenter 3 not found
+2025-08-14 18:33:06,739 - datacenter_main - ERROR - Datacenter 3 not found
+2025-08-14 18:35:14,024 - datacenter_main - ERROR - Datacenter 1 not found
+2025-08-14 18:43:50,976 - datacenter_main - ERROR - Datacenter 3 not found
+2025-08-18 10:07:22,087 - datacenter_main - ERROR - Datacenter 3 not found
+2025-08-18 12:23:04,490 - datacenter_main - INFO - System Status - Cameras: 0/0, Uptime: 29s, Frames: 0, Events: 0
+2025-08-18 12:23:34,729 - datacenter_main - INFO - System Status - Cameras: 0/0, Uptime: 60s, Frames: 0, Events: 0
+2025-08-18 12:24:04,953 - datacenter_main - INFO - System Status - Cameras: 0/0, Uptime: 90s, Frames: 0, Events: 0
+2025-08-18 12:24:35,207 - datacenter_main - INFO - System Status - Cameras: 0/0, Uptime: 120s, Frames: 0, Events: 0
+2025-08-18 13:08:45,561 - datacenter_main - ERROR - Datacenter 8 not found
+2025-08-18 17:10:37,290 - datacenter_main - INFO - System Status - Cameras: 3/3, Uptime: 40s, Frames: 0, Events: 0
+2025-08-18 17:11:09,006 - datacenter_main - INFO - System Status - Cameras: 3/3, Uptime: 72s, Frames: 0, Events: 0
+2025-08-18 17:11:40,755 - datacenter_main - INFO - System Status - Cameras: 3/3, Uptime: 103s, Frames: 0, Events: 0
+2025-08-18 17:12:12,850 - datacenter_main - INFO - System Status - Cameras: 3/3, Uptime: 135s, Frames: 0, Events: 0
+2025-08-18 17:12:44,972 - datacenter_main - INFO - System Status - Cameras: 3/3, Uptime: 167s, Frames: 0, Events: 0
+2025-08-18 17:19:11,824 - datacenter_main - INFO - System Status - Cameras: 3/3, Uptime: 41s, Frames: 0, Events: 0
+2025-08-18 17:19:44,697 - datacenter_main - INFO - System Status - Cameras: 3/3, Uptime: 74s, Frames: 0, Events: 0
+2025-08-18 17:24:52,516 - datacenter_main - ERROR - Datacenter 1 not found

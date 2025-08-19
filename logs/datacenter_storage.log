@@ -1,0 +1,204 @@
+2025-08-13 16:58:37,563 - datacenter_storage - INFO - Initializing DatacenterStorageHandler
+2025-08-13 17:02:14,706 - datacenter_storage - INFO - Initializing DatacenterStorageHandler
+2025-08-13 17:02:14,710 - datacenter_storage - ERROR - Failed to initialize storage client: type object 'Config' has no attribute 'GCP_PROJECT'
+2025-08-13 17:02:14,712 - datacenter_storage - INFO - Storage worker 0 started
+2025-08-13 17:02:14,713 - datacenter_storage - INFO - Storage worker 1 started
+2025-08-13 17:02:14,715 - datacenter_storage - INFO - Storage worker 2 started
+2025-08-13 17:02:14,715 - datacenter_storage - INFO - Storage cleanup worker started
+2025-08-13 17:02:14,716 - datacenter_storage - INFO - Started 4 storage worker threads
+2025-08-13 17:02:14,725 - datacenter_storage - INFO - DatacenterStorageHandler initialized successfully
+2025-08-13 17:19:58,667 - datacenter_storage - INFO - Initializing DatacenterStorageHandler
+2025-08-13 17:20:01,687 - datacenter_storage - ERROR - Failed to initialize storage client: 403 GET https://storage.googleapis.com/storage/v1/b/dc_bucket_test?fields=name&prettyPrint=false: 673103261841-compute@developer.gserviceaccount.com does not have storage.buckets.get access to the Google Cloud Storage bucket. Permission 'storage.buckets.get' denied on resource (or it may not exist).
+2025-08-13 17:20:01,689 - datacenter_storage - INFO - Storage worker 0 started
+2025-08-13 17:20:01,691 - datacenter_storage - INFO - Storage worker 1 started
+2025-08-13 17:20:01,692 - datacenter_storage - INFO - Storage worker 2 started
+2025-08-13 17:20:01,695 - datacenter_storage - INFO - Storage cleanup worker started
+2025-08-13 17:20:01,695 - datacenter_storage - INFO - Started 4 storage worker threads
+2025-08-13 17:20:01,696 - datacenter_storage - INFO - DatacenterStorageHandler initialized successfully
+2025-08-14 12:04:11,498 - datacenter_storage - INFO - Initializing DatacenterStorageHandler
+2025-08-14 12:04:12,024 - datacenter_storage - ERROR - Failed to initialize storage client: 403 GET https://storage.googleapis.com/storage/v1/b/dc_bucket_test?fields=name&prettyPrint=false: 673103261841-compute@developer.gserviceaccount.com does not have storage.buckets.get access to the Google Cloud Storage bucket. Permission 'storage.buckets.get' denied on resource (or it may not exist).
+2025-08-14 12:04:12,025 - datacenter_storage - INFO - Storage worker 0 started
+2025-08-14 12:04:12,026 - datacenter_storage - INFO - Storage worker 1 started
+2025-08-14 12:04:12,027 - datacenter_storage - INFO - Storage worker 2 started
+2025-08-14 12:04:12,028 - datacenter_storage - INFO - Storage cleanup worker started
+2025-08-14 12:04:12,028 - datacenter_storage - INFO - Started 4 storage worker threads
+2025-08-14 12:04:12,029 - datacenter_storage - INFO - DatacenterStorageHandler initialized successfully
+2025-08-14 12:13:48,383 - datacenter_storage - INFO - Initializing DatacenterStorageHandler
+2025-08-14 12:13:48,850 - datacenter_storage - ERROR - Failed to initialize storage client: 403 GET https://storage.googleapis.com/storage/v1/b/dc_bucket_test?fields=name&prettyPrint=false: 673103261841-compute@developer.gserviceaccount.com does not have storage.buckets.get access to the Google Cloud Storage bucket. Permission 'storage.buckets.get' denied on resource (or it may not exist).
+2025-08-14 12:13:48,851 - datacenter_storage - INFO - Storage worker 0 started
+2025-08-14 12:13:48,852 - datacenter_storage - INFO - Storage worker 1 started
+2025-08-14 12:13:48,852 - datacenter_storage - INFO - Storage worker 2 started
+2025-08-14 12:13:48,852 - datacenter_storage - INFO - Storage cleanup worker started
+2025-08-14 12:13:48,853 - datacenter_storage - INFO - Started 4 storage worker threads
+2025-08-14 12:13:48,853 - datacenter_storage - INFO - DatacenterStorageHandler initialized successfully
+2025-08-14 12:26:14,180 - datacenter_storage - INFO - Initializing DatacenterStorageHandler
+2025-08-14 12:26:14,602 - datacenter_storage - ERROR - Failed to initialize storage client: 403 GET https://storage.googleapis.com/storage/v1/b/dc_bucket_test?fields=name&prettyPrint=false: 673103261841-compute@developer.gserviceaccount.com does not have storage.buckets.get access to the Google Cloud Storage bucket. Permission 'storage.buckets.get' denied on resource (or it may not exist).
+2025-08-14 12:26:14,604 - datacenter_storage - INFO - Storage worker 0 started
+2025-08-14 12:26:14,604 - datacenter_storage - INFO - Storage worker 1 started
+2025-08-14 12:26:14,605 - datacenter_storage - INFO - Storage worker 2 started
+2025-08-14 12:26:14,606 - datacenter_storage - INFO - Storage cleanup worker started
+2025-08-14 12:26:14,606 - datacenter_storage - INFO - Started 4 storage worker threads
+2025-08-14 12:26:14,606 - datacenter_storage - INFO - DatacenterStorageHandler initialized successfully
+2025-08-14 12:42:04,601 - datacenter_storage - INFO - Initializing DatacenterStorageHandler
+2025-08-14 12:42:05,507 - datacenter_storage - ERROR - Failed to initialize storage client: 403 GET https://storage.googleapis.com/storage/v1/b/dc_bucket_test?fields=name&prettyPrint=false: 673103261841-compute@developer.gserviceaccount.com does not have storage.buckets.get access to the Google Cloud Storage bucket. Permission 'storage.buckets.get' denied on resource (or it may not exist).
+2025-08-14 12:42:05,510 - datacenter_storage - INFO - Storage worker 0 started
+2025-08-14 12:42:05,511 - datacenter_storage - INFO - Storage worker 1 started
+2025-08-14 12:42:05,513 - datacenter_storage - INFO - Storage worker 2 started
+2025-08-14 12:42:05,514 - datacenter_storage - INFO - Storage cleanup worker started
+2025-08-14 12:42:05,514 - datacenter_storage - INFO - Started 4 storage worker threads
+2025-08-14 12:42:05,515 - datacenter_storage - INFO - DatacenterStorageHandler initialized successfully
+2025-08-14 12:51:06,665 - datacenter_storage - INFO - Initializing DatacenterStorageHandler
+2025-08-14 12:51:07,494 - datacenter_storage - ERROR - Failed to initialize storage client: 403 GET https://storage.googleapis.com/storage/v1/b/dc_bucket_test?fields=name&prettyPrint=false: 673103261841-compute@developer.gserviceaccount.com does not have storage.buckets.get access to the Google Cloud Storage bucket. Permission 'storage.buckets.get' denied on resource (or it may not exist).
+2025-08-14 12:51:07,495 - datacenter_storage - INFO - Storage worker 0 started
+2025-08-14 12:51:07,496 - datacenter_storage - INFO - Storage worker 1 started
+2025-08-14 12:51:07,496 - datacenter_storage - INFO - Storage worker 2 started
+2025-08-14 12:51:07,497 - datacenter_storage - INFO - Storage cleanup worker started
+2025-08-14 12:51:07,497 - datacenter_storage - INFO - Started 4 storage worker threads
+2025-08-14 12:51:07,497 - datacenter_storage - INFO - DatacenterStorageHandler initialized successfully
+2025-08-14 13:12:36,024 - datacenter_storage - INFO - Initializing DatacenterStorageHandler
+2025-08-14 13:12:36,911 - datacenter_storage - ERROR - Failed to initialize storage client: 403 GET https://storage.googleapis.com/storage/v1/b/dc_bucket_test?fields=name&prettyPrint=false: 673103261841-compute@developer.gserviceaccount.com does not have storage.buckets.get access to the Google Cloud Storage bucket. Permission 'storage.buckets.get' denied on resource (or it may not exist).
+2025-08-14 13:12:36,913 - datacenter_storage - INFO - Storage worker 0 started
+2025-08-14 13:12:36,914 - datacenter_storage - INFO - Storage worker 1 started
+2025-08-14 13:12:36,915 - datacenter_storage - INFO - Storage worker 2 started
+2025-08-14 13:12:36,917 - datacenter_storage - INFO - Storage cleanup worker started
+2025-08-14 13:12:36,917 - datacenter_storage - INFO - Started 4 storage worker threads
+2025-08-14 13:12:36,918 - datacenter_storage - INFO - DatacenterStorageHandler initialized successfully
+2025-08-14 13:33:54,739 - datacenter_storage - INFO - Initializing DatacenterStorageHandler
+2025-08-14 13:33:55,530 - datacenter_storage - ERROR - Failed to initialize storage client: 403 GET https://storage.googleapis.com/storage/v1/b/dc_bucket_test?fields=name&prettyPrint=false: 673103261841-compute@developer.gserviceaccount.com does not have storage.buckets.get access to the Google Cloud Storage bucket. Permission 'storage.buckets.get' denied on resource (or it may not exist).
+2025-08-14 13:33:55,532 - datacenter_storage - INFO - Storage worker 0 started
+2025-08-14 13:33:55,533 - datacenter_storage - INFO - Storage worker 1 started
+2025-08-14 13:33:55,534 - datacenter_storage - INFO - Storage worker 2 started
+2025-08-14 13:33:55,535 - datacenter_storage - INFO - Storage cleanup worker started
+2025-08-14 13:33:55,536 - datacenter_storage - INFO - Started 4 storage worker threads
+2025-08-14 13:33:55,536 - datacenter_storage - INFO - DatacenterStorageHandler initialized successfully
+2025-08-14 15:05:23,502 - datacenter_storage - INFO - Initializing DatacenterStorageHandler
+2025-08-14 15:05:23,945 - datacenter_storage - ERROR - Failed to initialize storage client: 403 GET https://storage.googleapis.com/storage/v1/b/dc_bucket_test?fields=name&prettyPrint=false: 673103261841-compute@developer.gserviceaccount.com does not have storage.buckets.get access to the Google Cloud Storage bucket. Permission 'storage.buckets.get' denied on resource (or it may not exist).
+2025-08-14 15:05:23,948 - datacenter_storage - INFO - Storage worker 0 started
+2025-08-14 15:05:23,949 - datacenter_storage - INFO - Storage worker 1 started
+2025-08-14 15:05:23,951 - datacenter_storage - INFO - Storage worker 2 started
+2025-08-14 15:05:23,952 - datacenter_storage - INFO - Storage cleanup worker started
+2025-08-14 15:05:23,953 - datacenter_storage - INFO - Started 4 storage worker threads
+2025-08-14 15:05:23,954 - datacenter_storage - INFO - DatacenterStorageHandler initialized successfully
+2025-08-14 16:06:42,541 - datacenter_storage - INFO - Initializing DatacenterStorageHandler
+2025-08-14 16:06:42,960 - datacenter_storage - ERROR - Failed to initialize storage client: 403 GET https://storage.googleapis.com/storage/v1/b/dc_bucket_test?fields=name&prettyPrint=false: 673103261841-compute@developer.gserviceaccount.com does not have storage.buckets.get access to the Google Cloud Storage bucket. Permission 'storage.buckets.get' denied on resource (or it may not exist).
+2025-08-14 16:06:42,962 - datacenter_storage - INFO - Storage worker 0 started
+2025-08-14 16:06:42,963 - datacenter_storage - INFO - Storage worker 1 started
+2025-08-14 16:06:42,965 - datacenter_storage - INFO - Storage worker 2 started
+2025-08-14 16:06:42,966 - datacenter_storage - INFO - Storage cleanup worker started
+2025-08-14 16:06:42,966 - datacenter_storage - INFO - Started 4 storage worker threads
+2025-08-14 16:06:42,967 - datacenter_storage - INFO - DatacenterStorageHandler initialized successfully
+2025-08-14 16:15:46,617 - datacenter_storage - INFO - Initializing DatacenterStorageHandler
+2025-08-14 16:15:47,012 - datacenter_storage - ERROR - Failed to initialize storage client: 403 GET https://storage.googleapis.com/storage/v1/b/dc_bucket_test?fields=name&prettyPrint=false: 673103261841-compute@developer.gserviceaccount.com does not have storage.buckets.get access to the Google Cloud Storage bucket. Permission 'storage.buckets.get' denied on resource (or it may not exist).
+2025-08-14 16:15:47,014 - datacenter_storage - INFO - Storage worker 0 started
+2025-08-14 16:15:47,015 - datacenter_storage - INFO - Storage worker 1 started
+2025-08-14 16:15:47,017 - datacenter_storage - INFO - Storage worker 2 started
+2025-08-14 16:15:47,019 - datacenter_storage - INFO - Storage cleanup worker started
+2025-08-14 16:15:47,019 - datacenter_storage - INFO - Started 4 storage worker threads
+2025-08-14 16:15:47,020 - datacenter_storage - INFO - DatacenterStorageHandler initialized successfully
+2025-08-14 16:24:10,834 - datacenter_storage - INFO - Initializing DatacenterStorageHandler
+2025-08-14 16:24:11,260 - datacenter_storage - ERROR - Failed to initialize storage client: 403 GET https://storage.googleapis.com/storage/v1/b/dc_bucket_test?fields=name&prettyPrint=false: 673103261841-compute@developer.gserviceaccount.com does not have storage.buckets.get access to the Google Cloud Storage bucket. Permission 'storage.buckets.get' denied on resource (or it may not exist).
+2025-08-14 16:24:11,263 - datacenter_storage - INFO - Storage worker 0 started
+2025-08-14 16:24:11,264 - datacenter_storage - INFO - Storage worker 1 started
+2025-08-14 16:24:11,266 - datacenter_storage - INFO - Storage worker 2 started
+2025-08-14 16:24:11,267 - datacenter_storage - INFO - Storage cleanup worker started
+2025-08-14 16:24:11,268 - datacenter_storage - INFO - Started 4 storage worker threads
+2025-08-14 16:24:11,268 - datacenter_storage - INFO - DatacenterStorageHandler initialized successfully
+2025-08-14 16:30:42,559 - datacenter_storage - INFO - Initializing DatacenterStorageHandler
+2025-08-14 16:30:42,933 - datacenter_storage - ERROR - Failed to initialize storage client: 403 GET https://storage.googleapis.com/storage/v1/b/dc_bucket_test?fields=name&prettyPrint=false: 673103261841-compute@developer.gserviceaccount.com does not have storage.buckets.get access to the Google Cloud Storage bucket. Permission 'storage.buckets.get' denied on resource (or it may not exist).
+2025-08-14 16:30:42,935 - datacenter_storage - INFO - Storage worker 0 started
+2025-08-14 16:30:42,936 - datacenter_storage - INFO - Storage worker 1 started
+2025-08-14 16:30:42,937 - datacenter_storage - INFO - Storage worker 2 started
+2025-08-14 16:30:42,938 - datacenter_storage - INFO - Storage cleanup worker started
+2025-08-14 16:30:42,938 - datacenter_storage - INFO - Started 4 storage worker threads
+2025-08-14 16:30:42,939 - datacenter_storage - INFO - DatacenterStorageHandler initialized successfully
+2025-08-14 18:03:37,725 - datacenter_storage - INFO - Initializing DatacenterStorageHandler
+2025-08-14 18:03:38,300 - datacenter_storage - INFO - Connected to GCS bucket: dc_bucket_test
+2025-08-14 18:03:38,303 - datacenter_storage - INFO - Storage worker 0 started
+2025-08-14 18:03:38,304 - datacenter_storage - INFO - Storage worker 1 started
+2025-08-14 18:03:38,306 - datacenter_storage - INFO - Storage worker 2 started
+2025-08-14 18:03:38,308 - datacenter_storage - INFO - Storage cleanup worker started
+2025-08-14 18:03:38,308 - datacenter_storage - INFO - Started 4 storage worker threads
+2025-08-14 18:03:38,309 - datacenter_storage - INFO - DatacenterStorageHandler initialized successfully
+2025-08-14 18:05:28,604 - datacenter_storage - INFO - Shutting down DatacenterStorageHandler
+2025-08-14 18:05:29,087 - datacenter_storage - INFO - Storage worker 2 stopped
+2025-08-14 18:05:29,087 - datacenter_storage - INFO - Storage worker 0 stopped
+2025-08-14 18:05:29,088 - datacenter_storage - INFO - Storage worker 1 stopped
+2025-08-14 18:05:59,094 - datacenter_storage - WARNING - Thread storage_cleanup did not terminate gracefully
+2025-08-14 18:05:59,096 - datacenter_storage - INFO - Storage handler shutdown complete. Final stats: {'queue_size': 0, 'total_uploads': 0, 'successful_uploads': 0, 'failed_uploads': 0, 'success_rate': 0.0, 'total_size_bytes': 0, 'average_upload_time': 0.0, 'error_count': 0, 'worker_threads': 1, 'bucket_name': 'dc_bucket_test', 'storage_available': True}
+2025-08-18 12:22:34,591 - datacenter_storage - INFO - Initializing DatacenterStorageHandler
+2025-08-18 12:22:35,042 - datacenter_storage - INFO - Connected to GCS bucket: dc_bucket_test
+2025-08-18 12:22:35,044 - datacenter_storage - INFO - Storage worker 0 started
+2025-08-18 12:22:35,046 - datacenter_storage - INFO - Storage worker 1 started
+2025-08-18 12:22:35,048 - datacenter_storage - INFO - Storage worker 2 started
+2025-08-18 12:22:35,049 - datacenter_storage - INFO - Storage cleanup worker started
+2025-08-18 12:22:35,049 - datacenter_storage - INFO - Started 4 storage worker threads
+2025-08-18 12:22:35,050 - datacenter_storage - INFO - DatacenterStorageHandler initialized successfully
+2025-08-18 12:24:52,554 - datacenter_storage - INFO - Shutting down DatacenterStorageHandler
+2025-08-18 12:24:53,108 - datacenter_storage - INFO - Storage worker 1 stopped
+2025-08-18 12:24:53,108 - datacenter_storage - INFO - Storage worker 0 stopped
+2025-08-18 12:24:53,109 - datacenter_storage - INFO - Storage worker 2 stopped
+2025-08-18 12:25:28,135 - datacenter_storage - INFO - Shutting down DatacenterStorageHandler
+2025-08-18 12:25:58,144 - datacenter_storage - WARNING - Thread storage_cleanup did not terminate gracefully
+2025-08-18 12:25:58,145 - datacenter_storage - INFO - Storage handler shutdown complete. Final stats: {'queue_size': 0, 'total_uploads': 0, 'successful_uploads': 0, 'failed_uploads': 0, 'success_rate': 0.0, 'total_size_bytes': 0, 'average_upload_time': 0.0, 'error_count': 0, 'worker_threads': 1, 'bucket_name': 'dc_bucket_test', 'storage_available': True}
+2025-08-18 12:29:53,580 - datacenter_storage - INFO - Initializing DatacenterStorageHandler
+2025-08-18 12:29:54,125 - datacenter_storage - INFO - Connected to GCS bucket: dc_bucket_test
+2025-08-18 12:29:54,128 - datacenter_storage - INFO - Storage worker 0 started
+2025-08-18 12:29:54,129 - datacenter_storage - INFO - Storage worker 1 started
+2025-08-18 12:29:54,131 - datacenter_storage - INFO - Storage worker 2 started
+2025-08-18 12:29:54,133 - datacenter_storage - INFO - Storage cleanup worker started
+2025-08-18 12:29:54,133 - datacenter_storage - INFO - Started 4 storage worker threads
+2025-08-18 12:29:54,135 - datacenter_storage - INFO - DatacenterStorageHandler initialized successfully
+2025-08-18 12:30:14,720 - datacenter_storage - INFO - Shutting down DatacenterStorageHandler
+2025-08-18 12:30:15,251 - datacenter_storage - INFO - Storage worker 2 stopped
+2025-08-18 12:30:15,251 - datacenter_storage - INFO - Storage worker 0 stopped
+2025-08-18 12:30:15,251 - datacenter_storage - INFO - Storage worker 1 stopped
+2025-08-18 12:30:45,265 - datacenter_storage - WARNING - Thread storage_cleanup did not terminate gracefully
+2025-08-18 12:30:45,266 - datacenter_storage - INFO - Storage handler shutdown complete. Final stats: {'queue_size': 0, 'total_uploads': 0, 'successful_uploads': 0, 'failed_uploads': 0, 'success_rate': 0.0, 'total_size_bytes': 0, 'average_upload_time': 0.0, 'error_count': 0, 'worker_threads': 1, 'bucket_name': 'dc_bucket_test', 'storage_available': True}
+2025-08-18 14:56:20,809 - datacenter_storage - INFO - Initializing DatacenterStorageHandler
+2025-08-18 14:56:21,307 - datacenter_storage - INFO - Connected to GCS bucket: dc_bucket_test
+2025-08-18 14:56:21,309 - datacenter_storage - INFO - Storage worker 0 started
+2025-08-18 14:56:21,311 - datacenter_storage - INFO - Storage worker 1 started
+2025-08-18 14:56:21,312 - datacenter_storage - INFO - Storage worker 2 started
+2025-08-18 14:56:21,314 - datacenter_storage - INFO - Storage cleanup worker started
+2025-08-18 14:56:21,314 - datacenter_storage - INFO - Started 4 storage worker threads
+2025-08-18 14:56:21,315 - datacenter_storage - INFO - DatacenterStorageHandler initialized successfully
+2025-08-18 15:03:14,991 - datacenter_storage - INFO - Initializing DatacenterStorageHandler
+2025-08-18 15:03:15,433 - datacenter_storage - INFO - Connected to GCS bucket: dc_bucket_test
+2025-08-18 15:03:15,436 - datacenter_storage - INFO - Storage worker 0 started
+2025-08-18 15:03:15,437 - datacenter_storage - INFO - Storage worker 1 started
+2025-08-18 15:03:15,439 - datacenter_storage - INFO - Storage worker 2 started
+2025-08-18 15:03:15,440 - datacenter_storage - INFO - Storage cleanup worker started
+2025-08-18 15:03:15,440 - datacenter_storage - INFO - Started 4 storage worker threads
+2025-08-18 15:03:15,441 - datacenter_storage - INFO - DatacenterStorageHandler initialized successfully
+2025-08-18 16:06:33,437 - datacenter_storage - INFO - Initializing DatacenterStorageHandler
+2025-08-18 16:06:33,968 - datacenter_storage - INFO - Connected to GCS bucket: dc_bucket_test
+2025-08-18 16:06:33,971 - datacenter_storage - INFO - Storage worker 0 started
+2025-08-18 16:06:33,972 - datacenter_storage - INFO - Storage worker 1 started
+2025-08-18 16:06:33,974 - datacenter_storage - INFO - Storage worker 2 started
+2025-08-18 16:06:33,975 - datacenter_storage - INFO - Storage cleanup worker started
+2025-08-18 16:06:33,976 - datacenter_storage - INFO - Started 4 storage worker threads
+2025-08-18 16:06:33,977 - datacenter_storage - INFO - DatacenterStorageHandler initialized successfully
+2025-08-18 16:55:54,780 - datacenter_storage - INFO - Initializing DatacenterStorageHandler
+2025-08-18 16:55:55,328 - datacenter_storage - INFO - Connected to GCS bucket: dc_bucket_test
+2025-08-18 16:55:55,330 - datacenter_storage - INFO - Storage worker 0 started
+2025-08-18 16:55:55,332 - datacenter_storage - INFO - Storage worker 1 started
+2025-08-18 16:55:55,333 - datacenter_storage - INFO - Storage worker 2 started
+2025-08-18 16:55:55,334 - datacenter_storage - INFO - Storage cleanup worker started
+2025-08-18 16:55:55,334 - datacenter_storage - INFO - Started 4 storage worker threads
+2025-08-18 16:55:55,335 - datacenter_storage - INFO - DatacenterStorageHandler initialized successfully
+2025-08-18 17:09:57,053 - datacenter_storage - INFO - Initializing DatacenterStorageHandler
+2025-08-18 17:09:57,496 - datacenter_storage - INFO - Connected to GCS bucket: dc_bucket_test
+2025-08-18 17:09:57,498 - datacenter_storage - INFO - Storage worker 0 started
+2025-08-18 17:09:57,500 - datacenter_storage - INFO - Storage worker 1 started
+2025-08-18 17:09:57,501 - datacenter_storage - INFO - Storage worker 2 started
+2025-08-18 17:09:57,503 - datacenter_storage - INFO - Storage cleanup worker started
+2025-08-18 17:09:57,503 - datacenter_storage - INFO - Started 4 storage worker threads
+2025-08-18 17:09:57,504 - datacenter_storage - INFO - DatacenterStorageHandler initialized successfully
+2025-08-18 17:18:30,479 - datacenter_storage - INFO - Initializing DatacenterStorageHandler
+2025-08-18 17:18:30,867 - datacenter_storage - INFO - Connected to GCS bucket: dc_bucket_test
+2025-08-18 17:18:30,871 - datacenter_storage - INFO - Storage worker 0 started
+2025-08-18 17:18:30,872 - datacenter_storage - INFO - Storage worker 1 started
+2025-08-18 17:18:30,874 - datacenter_storage - INFO - Storage worker 2 started
+2025-08-18 17:18:30,875 - datacenter_storage - INFO - Storage cleanup worker started
+2025-08-18 17:18:30,875 - datacenter_storage - INFO - Started 4 storage worker threads
+2025-08-18 17:18:30,876 - datacenter_storage - INFO - DatacenterStorageHandler initialized successfully

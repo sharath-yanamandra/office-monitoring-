@@ -1,0 +1,54 @@
+2025-08-13 16:58:37,561 - datacenter_db_writer - INFO - Initializing DatacenterDatabaseWriter
+2025-08-13 17:02:14,704 - datacenter_db_writer - INFO - Initializing DatacenterDatabaseWriter
+2025-08-13 17:19:58,665 - datacenter_db_writer - INFO - Initializing DatacenterDatabaseWriter
+2025-08-13 17:19:58,666 - datacenter_db_writer - WARNING - Cloud storage initialization failed: [Errno 2] No such file or directory: './gcp-service-account.json'
+2025-08-14 12:04:11,495 - datacenter_db_writer - INFO - Initializing DatacenterDatabaseWriter
+2025-08-14 12:04:11,496 - datacenter_db_writer - WARNING - Cloud storage initialization failed: [Errno 2] No such file or directory: './gcp-service-account.json'
+2025-08-14 12:13:48,382 - datacenter_db_writer - INFO - Initializing DatacenterDatabaseWriter
+2025-08-14 12:13:48,382 - datacenter_db_writer - WARNING - Cloud storage initialization failed: [Errno 2] No such file or directory: './gcp-service-account.json'
+2025-08-14 12:26:14,178 - datacenter_db_writer - INFO - Initializing DatacenterDatabaseWriter
+2025-08-14 12:26:14,179 - datacenter_db_writer - WARNING - Cloud storage initialization failed: [Errno 2] No such file or directory: './gcp-service-account.json'
+2025-08-14 12:42:04,600 - datacenter_db_writer - INFO - Initializing DatacenterDatabaseWriter
+2025-08-14 12:42:04,600 - datacenter_db_writer - WARNING - Cloud storage initialization failed: [Errno 2] No such file or directory: './gcp-service-account.json'
+2025-08-14 12:51:06,663 - datacenter_db_writer - INFO - Initializing DatacenterDatabaseWriter
+2025-08-14 12:51:06,664 - datacenter_db_writer - INFO - Cloud storage initialized successfully
+2025-08-14 13:12:36,018 - datacenter_db_writer - INFO - Initializing DatacenterDatabaseWriter
+2025-08-14 13:12:36,021 - datacenter_db_writer - INFO - Cloud storage initialized successfully
+2025-08-14 13:33:54,733 - datacenter_db_writer - INFO - Initializing DatacenterDatabaseWriter
+2025-08-14 13:33:54,736 - datacenter_db_writer - INFO - Cloud storage initialized successfully
+2025-08-14 15:05:23,498 - datacenter_db_writer - INFO - Initializing DatacenterDatabaseWriter
+2025-08-14 15:05:23,501 - datacenter_db_writer - INFO - Cloud storage initialized successfully
+2025-08-14 16:06:42,535 - datacenter_db_writer - INFO - Initializing DatacenterDatabaseWriter
+2025-08-14 16:06:42,538 - datacenter_db_writer - INFO - Cloud storage initialized successfully
+2025-08-14 16:15:46,615 - datacenter_db_writer - INFO - Initializing DatacenterDatabaseWriter
+2025-08-14 16:15:46,616 - datacenter_db_writer - INFO - Cloud storage initialized successfully
+2025-08-14 16:24:10,832 - datacenter_db_writer - INFO - Initializing DatacenterDatabaseWriter
+2025-08-14 16:24:10,833 - datacenter_db_writer - INFO - Cloud storage initialized successfully
+2025-08-14 16:30:42,556 - datacenter_db_writer - INFO - Initializing DatacenterDatabaseWriter
+2025-08-14 16:30:42,557 - datacenter_db_writer - INFO - Cloud storage initialized successfully
+2025-08-14 18:03:37,723 - datacenter_db_writer - INFO - Initializing DatacenterDatabaseWriter
+2025-08-14 18:03:37,724 - datacenter_db_writer - INFO - Cloud storage initialized successfully
+2025-08-14 18:05:27,760 - datacenter_db_writer - INFO - Shutting down DatacenterDatabaseWriter
+2025-08-14 18:05:28,603 - datacenter_db_writer - INFO - DatacenterDatabaseWriter shutdown complete
+2025-08-18 12:22:34,589 - datacenter_db_writer - INFO - Initializing DatacenterDatabaseWriter
+2025-08-18 12:22:34,590 - datacenter_db_writer - INFO - Cloud storage initialized successfully
+2025-08-18 12:24:52,091 - datacenter_db_writer - INFO - Shutting down DatacenterDatabaseWriter
+2025-08-18 12:24:52,554 - datacenter_db_writer - INFO - DatacenterDatabaseWriter shutdown complete
+2025-08-18 12:25:28,134 - datacenter_db_writer - INFO - Shutting down DatacenterDatabaseWriter
+2025-08-18 12:25:28,134 - datacenter_db_writer - INFO - DatacenterDatabaseWriter shutdown complete
+2025-08-18 12:29:53,577 - datacenter_db_writer - INFO - Initializing DatacenterDatabaseWriter
+2025-08-18 12:29:53,579 - datacenter_db_writer - INFO - Cloud storage initialized successfully
+2025-08-18 12:30:13,766 - datacenter_db_writer - INFO - Shutting down DatacenterDatabaseWriter
+2025-08-18 12:30:14,720 - datacenter_db_writer - INFO - DatacenterDatabaseWriter shutdown complete
+2025-08-18 14:56:20,807 - datacenter_db_writer - INFO - Initializing DatacenterDatabaseWriter
+2025-08-18 14:56:20,808 - datacenter_db_writer - INFO - Cloud storage initialized successfully
+2025-08-18 15:03:14,989 - datacenter_db_writer - INFO - Initializing DatacenterDatabaseWriter
+2025-08-18 15:03:14,990 - datacenter_db_writer - INFO - Cloud storage initialized successfully
+2025-08-18 16:06:33,434 - datacenter_db_writer - INFO - Initializing DatacenterDatabaseWriter
+2025-08-18 16:06:33,436 - datacenter_db_writer - INFO - Cloud storage initialized successfully
+2025-08-18 16:55:54,778 - datacenter_db_writer - INFO - Initializing DatacenterDatabaseWriter
+2025-08-18 16:55:54,779 - datacenter_db_writer - INFO - Cloud storage initialized successfully
+2025-08-18 17:09:57,052 - datacenter_db_writer - INFO - Initializing DatacenterDatabaseWriter
+2025-08-18 17:09:57,053 - datacenter_db_writer - INFO - Cloud storage initialized successfully
+2025-08-18 17:18:30,477 - datacenter_db_writer - INFO - Initializing DatacenterDatabaseWriter
+2025-08-18 17:18:30,478 - datacenter_db_writer - INFO - Cloud storage initialized successfully

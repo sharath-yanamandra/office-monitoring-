@@ -1,0 +1,329 @@
+2025-08-13 17:02:15,914 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-13 17:02:17,186 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-13 17:02:18,262 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-13 17:02:19,372 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-13 17:02:20,347 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-13 17:20:03,131 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-13 17:20:04,468 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-13 17:20:05,702 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-13 17:20:07,053 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-13 17:20:08,362 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:04:13,180 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:04:14,268 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:04:15,428 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:04:16,527 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:04:17,474 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:13:50,015 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:13:51,091 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:13:52,218 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:13:53,413 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:13:54,634 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:26:15,748 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:26:16,172 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 12:26:16,173 - datacenter_camera_model_9 - INFO - Initializing PeopleCountingMonitor with detailed logging
+2025-08-14 12:26:16,174 - datacenter_camera_model_9 - INFO - Loaded 1 counting zones
+2025-08-14 12:26:16,174 - datacenter_camera_model_9 - INFO - Zone: Camera 9 Counting Zone with 4 coordinates
+2025-08-14 12:26:16,927 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:26:17,209 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 12:26:17,210 - datacenter_camera_model_9 - INFO - Initializing PPEDetector
+2025-08-14 12:26:18,411 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:26:18,734 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 12:26:18,735 - datacenter_camera_model_9 - INFO - Initializing TailgatingZoneMonitor
+2025-08-14 12:26:19,545 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:26:19,975 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 12:26:19,975 - datacenter_camera_model_9 - INFO - Initializing IntrusionZoneMonitor with detailed logging
+2025-08-14 12:26:20,643 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:26:21,024 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 12:26:21,025 - datacenter_camera_model_9 - INFO - Initializing LoiteringZoneMonitor with detailed logging
+2025-08-14 12:42:08,841 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:42:09,952 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 12:42:09,953 - datacenter_camera_model_9 - INFO - Initializing PeopleCountingMonitor with detailed logging
+2025-08-14 12:42:09,953 - datacenter_camera_model_9 - INFO - Loaded 1 counting zones
+2025-08-14 12:42:09,954 - datacenter_camera_model_9 - INFO - Zone: Camera 9 Counting Zone with 4 coordinates
+2025-08-14 12:42:12,234 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:42:13,369 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 12:42:13,370 - datacenter_camera_model_9 - INFO - Initializing PPEDetector
+2025-08-14 12:42:16,516 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:42:17,622 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 12:42:17,623 - datacenter_camera_model_9 - INFO - Initializing TailgatingZoneMonitor
+2025-08-14 12:42:19,849 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:42:20,952 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 12:42:20,953 - datacenter_camera_model_9 - INFO - Initializing IntrusionZoneMonitor with detailed logging
+2025-08-14 12:42:23,212 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:42:24,310 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 12:42:24,312 - datacenter_camera_model_9 - INFO - Initializing LoiteringZoneMonitor with detailed logging
+2025-08-14 12:51:10,817 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:51:11,922 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 12:51:11,923 - datacenter_camera_model_9 - INFO - Initializing PeopleCountingMonitor with detailed logging
+2025-08-14 12:51:11,924 - datacenter_camera_model_9 - INFO - Loaded 1 counting zones
+2025-08-14 12:51:11,925 - datacenter_camera_model_9 - INFO - Zone: Camera 9 Counting Zone with 4 coordinates
+2025-08-14 12:51:14,660 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:51:15,765 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 12:51:15,766 - datacenter_camera_model_9 - INFO - Initializing PPEDetector
+2025-08-14 12:51:18,846 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:51:19,965 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 12:51:19,966 - datacenter_camera_model_9 - INFO - Initializing TailgatingZoneMonitor
+2025-08-14 12:51:22,584 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:51:23,686 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 12:51:23,687 - datacenter_camera_model_9 - INFO - Initializing IntrusionZoneMonitor with detailed logging
+2025-08-14 12:51:26,416 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 12:51:27,555 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 12:51:27,556 - datacenter_camera_model_9 - INFO - Initializing LoiteringZoneMonitor with detailed logging
+2025-08-14 13:12:40,286 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 13:12:41,398 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 13:12:41,399 - datacenter_camera_model_9 - INFO - Initializing PeopleCountingMonitor with detailed logging
+2025-08-14 13:12:41,399 - datacenter_camera_model_9 - INFO - Loaded 1 counting zones
+2025-08-14 13:12:41,400 - datacenter_camera_model_9 - INFO - Zone: Camera 9 Counting Zone with 4 coordinates
+2025-08-14 13:12:43,623 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 13:12:44,762 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 13:12:44,762 - datacenter_camera_model_9 - INFO - Initializing PPEDetector
+2025-08-14 13:12:47,428 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 13:12:48,529 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 13:12:48,529 - datacenter_camera_model_9 - INFO - Initializing TailgatingZoneMonitor
+2025-08-14 13:12:50,781 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 13:12:51,996 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 13:12:51,997 - datacenter_camera_model_9 - INFO - Initializing IntrusionZoneMonitor with detailed logging
+2025-08-14 13:12:51,998 - datacenter_camera_model_9 - INFO - Loaded 0 intrusion zones
+2025-08-14 13:12:54,211 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 13:12:55,324 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 13:12:55,326 - datacenter_camera_model_9 - INFO - Initializing LoiteringZoneMonitor with detailed logging
+2025-08-14 13:12:55,327 - datacenter_camera_model_9 - INFO - Loaded 0 loitering zones
+2025-08-14 13:33:59,379 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 13:34:00,520 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 13:34:00,521 - datacenter_camera_model_9 - INFO - Initializing PeopleCountingMonitor with detailed logging
+2025-08-14 13:34:00,521 - datacenter_camera_model_9 - INFO - Loaded 1 counting zones
+2025-08-14 13:34:00,522 - datacenter_camera_model_9 - INFO - Zone: Camera 9 Counting Zone with 4 coordinates
+2025-08-14 13:34:02,723 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 13:34:03,823 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 13:34:03,824 - datacenter_camera_model_9 - INFO - Initializing PPEDetector
+2025-08-14 13:34:06,440 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 13:34:07,539 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 13:34:07,540 - datacenter_camera_model_9 - INFO - Initializing TailgatingZoneMonitor
+2025-08-14 13:34:09,752 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 13:34:10,868 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 13:34:10,869 - datacenter_camera_model_9 - INFO - Initializing IntrusionZoneMonitor with detailed logging
+2025-08-14 13:34:10,869 - datacenter_camera_model_9 - INFO - Loaded 0 intrusion zones
+2025-08-14 13:34:13,125 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 13:34:14,233 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 13:34:14,234 - datacenter_camera_model_9 - INFO - Initializing LoiteringZoneMonitor with detailed logging
+2025-08-14 13:34:14,234 - datacenter_camera_model_9 - INFO - Loaded 0 loitering zones
+2025-08-14 15:05:25,390 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 15:05:25,868 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 15:05:25,869 - datacenter_camera_model_9 - INFO - Initializing PeopleCountingMonitor with detailed logging
+2025-08-14 15:05:25,870 - datacenter_camera_model_9 - INFO - Loaded 1 counting zones
+2025-08-14 15:05:25,870 - datacenter_camera_model_9 - INFO - Zone: Camera 9 Counting Zone with 4 coordinates
+2025-08-14 15:05:26,775 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 15:05:27,140 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 15:05:27,141 - datacenter_camera_model_9 - INFO - Initializing PPEDetector
+2025-08-14 15:05:27,194 - datacenter_camera_model_9 - INFO - Loaded PPE specific YOLO model.
+2025-08-14 15:05:27,959 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 15:05:28,472 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 15:05:28,473 - datacenter_camera_model_9 - INFO - Initializing TailgatingZoneMonitor
+2025-08-14 15:05:29,417 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 15:05:29,807 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 15:05:29,807 - datacenter_camera_model_9 - INFO - Initializing IntrusionZoneMonitor with detailed logging
+2025-08-14 15:05:29,808 - datacenter_camera_model_9 - INFO - Loaded 0 intrusion zones
+2025-08-14 15:05:30,686 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 15:05:31,126 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 15:05:31,127 - datacenter_camera_model_9 - INFO - Initializing LoiteringZoneMonitor with detailed logging
+2025-08-14 15:05:31,127 - datacenter_camera_model_9 - INFO - Loaded 0 loitering zones
+2025-08-14 16:06:44,672 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 16:06:45,246 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 16:06:45,247 - datacenter_camera_model_9 - INFO - Initializing PeopleCountingMonitor with detailed logging
+2025-08-14 16:06:45,247 - datacenter_camera_model_9 - INFO - Loaded 0 counting zones
+2025-08-14 16:06:46,291 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 16:06:46,848 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 16:06:46,849 - datacenter_camera_model_9 - INFO - Initializing PPEDetector
+2025-08-14 16:06:46,921 - datacenter_camera_model_9 - INFO - Loaded PPE specific YOLO model.
+2025-08-14 16:06:47,848 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 16:06:48,401 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 16:06:48,401 - datacenter_camera_model_9 - INFO - Initializing TailgatingZoneMonitor
+2025-08-14 16:06:48,402 - datacenter_camera_model_9 - WARNING - No entry zone defined for tailgating monitor. Using a default.
+2025-08-14 16:06:49,369 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 16:06:49,945 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 16:06:49,946 - datacenter_camera_model_9 - INFO - Initializing IntrusionZoneMonitor with detailed logging
+2025-08-14 16:06:49,947 - datacenter_camera_model_9 - INFO - Loaded 0 intrusion zones
+2025-08-14 16:06:50,947 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 16:06:51,404 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 16:06:51,405 - datacenter_camera_model_9 - INFO - Initializing LoiteringZoneMonitor with detailed logging
+2025-08-14 16:06:51,405 - datacenter_camera_model_9 - INFO - Loaded 0 loitering zones
+2025-08-14 16:15:48,704 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 16:15:49,095 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 16:15:49,096 - datacenter_camera_model_9 - INFO - Initializing PeopleCountingMonitor with detailed logging
+2025-08-14 16:15:49,097 - datacenter_camera_model_9 - INFO - Loaded 0 counting zones
+2025-08-14 16:15:49,998 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 16:15:50,475 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 16:15:50,475 - datacenter_camera_model_9 - INFO - Initializing PPEDetector
+2025-08-14 16:15:50,508 - datacenter_camera_model_9 - INFO - Loaded PPE specific YOLO model.
+2025-08-14 16:15:51,717 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 16:15:52,215 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 16:15:52,216 - datacenter_camera_model_9 - INFO - Initializing TailgatingZoneMonitor
+2025-08-14 16:15:52,216 - datacenter_camera_model_9 - WARNING - No entry zone defined for tailgating monitor. Using a default.
+2025-08-14 16:15:53,266 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 16:15:53,802 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 16:15:53,803 - datacenter_camera_model_9 - INFO - Initializing IntrusionZoneMonitor with detailed logging
+2025-08-14 16:15:53,803 - datacenter_camera_model_9 - INFO - Loaded 0 intrusion zones
+2025-08-14 16:15:54,942 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 16:15:55,540 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 16:15:55,541 - datacenter_camera_model_9 - INFO - Initializing LoiteringZoneMonitor with detailed logging
+2025-08-14 16:15:55,542 - datacenter_camera_model_9 - INFO - Loaded 0 loitering zones
+2025-08-14 16:24:12,800 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 16:24:13,295 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 16:24:13,296 - datacenter_camera_model_9 - INFO - Initializing PeopleCountingMonitor with detailed logging
+2025-08-14 16:24:13,296 - datacenter_camera_model_9 - INFO - Loaded 0 counting zones
+2025-08-14 16:24:14,122 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 16:24:14,687 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 16:24:14,687 - datacenter_camera_model_9 - INFO - Initializing PPEDetector
+2025-08-14 16:24:14,746 - datacenter_camera_model_9 - INFO - Loaded PPE specific YOLO model.
+2025-08-14 16:24:15,917 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 16:24:16,418 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 16:24:16,418 - datacenter_camera_model_9 - INFO - Initializing TailgatingZoneMonitor
+2025-08-14 16:24:16,419 - datacenter_camera_model_9 - WARNING - No entry zone defined for tailgating monitor. Using a default.
+2025-08-14 16:24:17,373 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 16:24:17,767 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 16:24:17,768 - datacenter_camera_model_9 - INFO - Initializing IntrusionZoneMonitor with detailed logging
+2025-08-14 16:24:17,769 - datacenter_camera_model_9 - INFO - Loaded 0 intrusion zones
+2025-08-14 16:24:18,785 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 16:24:19,158 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 16:24:19,159 - datacenter_camera_model_9 - INFO - Initializing LoiteringZoneMonitor with detailed logging
+2025-08-14 16:24:19,159 - datacenter_camera_model_9 - INFO - Loaded 0 loitering zones
+2025-08-14 16:30:44,596 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 16:30:45,198 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 16:30:45,199 - datacenter_camera_model_9 - INFO - Initializing PeopleCountingMonitor with detailed logging
+2025-08-14 16:30:45,200 - datacenter_camera_model_9 - INFO - Loaded 0 counting zones
+2025-08-14 16:30:46,164 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 16:30:46,733 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 16:30:46,734 - datacenter_camera_model_9 - INFO - Initializing PPEDetector
+2025-08-14 16:30:46,790 - datacenter_camera_model_9 - INFO - Loaded PPE specific YOLO model.
+2025-08-14 16:30:47,756 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 16:30:48,212 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 16:30:48,213 - datacenter_camera_model_9 - INFO - Initializing TailgatingZoneMonitor
+2025-08-14 16:30:48,213 - datacenter_camera_model_9 - WARNING - No entry zone defined for tailgating monitor. Using a default.
+2025-08-14 16:30:49,264 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 16:30:49,728 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 16:30:49,728 - datacenter_camera_model_9 - INFO - Initializing IntrusionZoneMonitor with detailed logging
+2025-08-14 16:30:49,729 - datacenter_camera_model_9 - INFO - Loaded 0 intrusion zones
+2025-08-14 16:30:50,765 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-14 16:30:51,145 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 3
+2025-08-14 16:30:51,146 - datacenter_camera_model_9 - INFO - Initializing LoiteringZoneMonitor with detailed logging
+2025-08-14 16:30:51,147 - datacenter_camera_model_9 - INFO - Loaded 0 loitering zones
+2025-08-18 14:56:23,454 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 14:56:23,821 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 14:56:23,821 - datacenter_camera_model_9 - INFO - Initializing PeopleCountingMonitor with detailed logging
+2025-08-18 14:56:23,822 - datacenter_camera_model_9 - INFO - Loaded 0 counting zones
+2025-08-18 14:56:24,548 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 14:56:24,985 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 14:56:24,986 - datacenter_camera_model_9 - INFO - Initializing PPEDetector
+2025-08-18 14:56:25,079 - datacenter_camera_model_9 - INFO - Loaded PPE specific YOLO model.
+2025-08-18 14:56:25,799 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 14:56:26,086 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 14:56:26,087 - datacenter_camera_model_9 - INFO - Initializing TailgatingZoneMonitor
+2025-08-18 14:56:26,087 - datacenter_camera_model_9 - WARNING - No entry zone defined for tailgating monitor. Using a default.
+2025-08-18 14:56:26,984 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 14:56:27,400 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 14:56:27,400 - datacenter_camera_model_9 - INFO - Initializing IntrusionZoneMonitor with detailed logging
+2025-08-18 14:56:27,401 - datacenter_camera_model_9 - INFO - Loaded 0 intrusion zones
+2025-08-18 14:56:28,197 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 14:56:28,676 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 14:56:28,676 - datacenter_camera_model_9 - INFO - Initializing LoiteringZoneMonitor with detailed logging
+2025-08-18 14:56:28,677 - datacenter_camera_model_9 - INFO - Loaded 0 loitering zones
+2025-08-18 15:03:17,766 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 15:03:18,179 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 15:03:18,179 - datacenter_camera_model_9 - INFO - Initializing PeopleCountingMonitor with detailed logging
+2025-08-18 15:03:18,180 - datacenter_camera_model_9 - INFO - Loaded 0 counting zones
+2025-08-18 15:03:18,929 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 15:03:19,335 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 15:03:19,336 - datacenter_camera_model_9 - INFO - Initializing PPEDetector
+2025-08-18 15:03:19,387 - datacenter_camera_model_9 - INFO - Loaded PPE specific YOLO model.
+2025-08-18 15:03:20,176 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 15:03:20,571 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 15:03:20,572 - datacenter_camera_model_9 - INFO - Initializing TailgatingZoneMonitor
+2025-08-18 15:03:20,572 - datacenter_camera_model_9 - WARNING - No entry zone defined for tailgating monitor. Using a default.
+2025-08-18 15:03:21,485 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 15:03:21,829 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 15:03:21,830 - datacenter_camera_model_9 - INFO - Initializing IntrusionZoneMonitor with detailed logging
+2025-08-18 15:03:21,830 - datacenter_camera_model_9 - INFO - Loaded 0 intrusion zones
+2025-08-18 15:03:22,703 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 15:03:23,154 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 15:03:23,155 - datacenter_camera_model_9 - INFO - Initializing LoiteringZoneMonitor with detailed logging
+2025-08-18 15:03:23,155 - datacenter_camera_model_9 - INFO - Loaded 0 loitering zones
+2025-08-18 16:06:36,147 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 16:06:36,510 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 16:06:36,512 - datacenter_camera_model_9 - INFO - Initializing PeopleCountingMonitor with detailed logging
+2025-08-18 16:06:36,512 - datacenter_camera_model_9 - INFO - Loaded 0 counting zones
+2025-08-18 16:06:37,151 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 16:06:37,517 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 16:06:37,518 - datacenter_camera_model_9 - INFO - Initializing PPEDetector
+2025-08-18 16:06:37,580 - datacenter_camera_model_9 - INFO - Loaded PPE specific YOLO model.
+2025-08-18 16:06:38,309 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 16:06:38,746 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 16:06:38,747 - datacenter_camera_model_9 - INFO - Initializing TailgatingZoneMonitor
+2025-08-18 16:06:38,747 - datacenter_camera_model_9 - WARNING - No entry zone defined for tailgating monitor. Using a default.
+2025-08-18 16:06:39,510 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 16:06:39,809 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 16:06:39,810 - datacenter_camera_model_9 - INFO - Initializing IntrusionZoneMonitor with detailed logging
+2025-08-18 16:06:39,810 - datacenter_camera_model_9 - INFO - Loaded 0 intrusion zones
+2025-08-18 16:06:40,602 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 16:06:40,950 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 16:06:40,951 - datacenter_camera_model_9 - INFO - Initializing LoiteringZoneMonitor with detailed logging
+2025-08-18 16:06:40,952 - datacenter_camera_model_9 - INFO - Loaded 0 loitering zones
+2025-08-18 16:55:57,613 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 16:55:57,913 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 16:55:57,914 - datacenter_camera_model_9 - INFO - Initializing PeopleCountingMonitor with detailed logging
+2025-08-18 16:55:57,915 - datacenter_camera_model_9 - INFO - Loaded 0 counting zones
+2025-08-18 16:55:58,608 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 16:55:58,897 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 16:55:58,898 - datacenter_camera_model_9 - INFO - Initializing PPEDetector
+2025-08-18 16:55:58,984 - datacenter_camera_model_9 - INFO - Loaded PPE specific YOLO model.
+2025-08-18 16:55:59,760 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 16:56:00,061 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 16:56:00,061 - datacenter_camera_model_9 - INFO - Initializing TailgatingZoneMonitor
+2025-08-18 16:56:00,061 - datacenter_camera_model_9 - WARNING - No entry zone defined for tailgating monitor. Using a default.
+2025-08-18 16:56:00,833 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 16:56:01,227 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 16:56:01,228 - datacenter_camera_model_9 - INFO - Initializing IntrusionZoneMonitor with detailed logging
+2025-08-18 16:56:01,229 - datacenter_camera_model_9 - INFO - Loaded 0 intrusion zones
+2025-08-18 16:56:01,990 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 16:56:02,384 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 16:56:02,384 - datacenter_camera_model_9 - INFO - Initializing LoiteringZoneMonitor with detailed logging
+2025-08-18 16:56:02,385 - datacenter_camera_model_9 - INFO - Loaded 0 loitering zones
+2025-08-18 17:09:59,671 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 17:10:00,093 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 17:10:00,094 - datacenter_camera_model_9 - INFO - Initializing PeopleCountingMonitor with detailed logging
+2025-08-18 17:10:00,094 - datacenter_camera_model_9 - INFO - Loaded 0 counting zones
+2025-08-18 17:10:00,867 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 17:10:01,203 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 17:10:01,204 - datacenter_camera_model_9 - INFO - Initializing PPEDetector
+2025-08-18 17:10:01,259 - datacenter_camera_model_9 - INFO - Loaded PPE specific YOLO model.
+2025-08-18 17:10:01,979 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 17:10:02,367 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 17:10:02,368 - datacenter_camera_model_9 - INFO - Initializing TailgatingZoneMonitor
+2025-08-18 17:10:02,369 - datacenter_camera_model_9 - WARNING - No entry zone defined for tailgating monitor. Using a default.
+2025-08-18 17:10:03,033 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 17:10:03,445 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 17:10:03,446 - datacenter_camera_model_9 - INFO - Initializing IntrusionZoneMonitor with detailed logging
+2025-08-18 17:10:03,446 - datacenter_camera_model_9 - INFO - Loaded 0 intrusion zones
+2025-08-18 17:10:04,286 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 17:10:04,583 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 17:10:04,584 - datacenter_camera_model_9 - INFO - Initializing LoiteringZoneMonitor with detailed logging
+2025-08-18 17:10:04,585 - datacenter_camera_model_9 - INFO - Loaded 0 loitering zones
+2025-08-18 17:18:32,952 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 17:18:33,282 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 17:18:33,283 - datacenter_camera_model_9 - INFO - Initializing PeopleCountingMonitor with detailed logging
+2025-08-18 17:18:33,283 - datacenter_camera_model_9 - INFO - Loaded 0 counting zones
+2025-08-18 17:18:34,046 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 17:18:34,352 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 17:18:34,352 - datacenter_camera_model_9 - INFO - Initializing PPEDetector
+2025-08-18 17:18:34,413 - datacenter_camera_model_9 - INFO - Loaded PPE specific YOLO model.
+2025-08-18 17:18:35,304 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 17:18:35,674 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 17:18:35,675 - datacenter_camera_model_9 - INFO - Initializing TailgatingZoneMonitor
+2025-08-18 17:18:35,675 - datacenter_camera_model_9 - WARNING - No entry zone defined for tailgating monitor. Using a default.
+2025-08-18 17:18:36,488 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 17:18:36,800 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 17:18:36,800 - datacenter_camera_model_9 - INFO - Initializing IntrusionZoneMonitor with detailed logging
+2025-08-18 17:18:36,801 - datacenter_camera_model_9 - INFO - Loaded 0 intrusion zones
+2025-08-18 17:18:37,598 - datacenter_camera_model_9 - INFO - Initializing datacenter camera model base for camera 9
+2025-08-18 17:18:37,894 - datacenter_camera_model_9 - INFO - Datacenter camera model base initialized for camera 9 in datacenter 1
+2025-08-18 17:18:37,895 - datacenter_camera_model_9 - INFO - Initializing LoiteringZoneMonitor with detailed logging
+2025-08-18 17:18:37,895 - datacenter_camera_model_9 - INFO - Loaded 0 loitering zones

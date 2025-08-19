@@ -1,0 +1,287 @@
+2025-08-13 16:51:44,780 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-13 16:51:44,870 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-13 16:51:44,871 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-13 16:51:46,612 - datacenter_model_manager - ERROR - Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\yolov11l.pt'
+2025-08-13 16:51:46,614 - datacenter_model_manager - ERROR - Failed to load detection on GPU 0: Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\yolov11l.pt'
+2025-08-13 16:51:46,745 - datacenter_model_manager - ERROR - Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\yolov11l.pt'
+2025-08-13 16:51:46,746 - datacenter_model_manager - ERROR - Failed to load detection on GPU 0: Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\yolov11l.pt'
+2025-08-13 16:51:46,855 - datacenter_model_manager - ERROR - Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\ppe_detection.pt'
+2025-08-13 16:51:46,856 - datacenter_model_manager - ERROR - Failed to load ppe_detection on GPU 0: Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\ppe_detection.pt'
+2025-08-13 16:51:47,018 - datacenter_model_manager - ERROR - Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\ppe_detection.pt'
+2025-08-13 16:51:47,019 - datacenter_model_manager - ERROR - Failed to load ppe_detection on GPU 0: Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\ppe_detection.pt'
+2025-08-13 16:58:21,191 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-13 16:58:21,237 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-13 16:58:21,237 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-13 16:58:37,246 - datacenter_model_manager - INFO - Loaded detection instance 0 on GPU 0
+2025-08-13 16:58:37,557 - datacenter_model_manager - INFO - Loaded detection instance 1 on GPU 0
+2025-08-13 16:58:37,557 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 0
+2025-08-13 16:58:37,557 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 1
+2025-08-13 16:58:37,559 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-13 16:58:37,560 - datacenter_model_manager - INFO - DatacenterModelManager initialized with 1 GPUs
+2025-08-13 17:02:13,590 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-13 17:02:13,638 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-13 17:02:13,638 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-13 17:02:14,396 - datacenter_model_manager - INFO - Loaded detection instance 0 on GPU 0
+2025-08-13 17:02:14,700 - datacenter_model_manager - INFO - Loaded detection instance 1 on GPU 0
+2025-08-13 17:02:14,700 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 0
+2025-08-13 17:02:14,700 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 1
+2025-08-13 17:02:14,702 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-13 17:02:14,703 - datacenter_model_manager - INFO - DatacenterModelManager initialized with 1 GPUs
+2025-08-13 17:02:44,704 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-13 17:19:57,455 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-13 17:19:57,511 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-13 17:19:57,511 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-13 17:19:58,397 - datacenter_model_manager - INFO - Loaded detection instance 0 on GPU 0
+2025-08-13 17:19:58,661 - datacenter_model_manager - INFO - Loaded detection instance 1 on GPU 0
+2025-08-13 17:19:58,662 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 0
+2025-08-13 17:19:58,662 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 1
+2025-08-13 17:19:58,663 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-13 17:19:58,664 - datacenter_model_manager - INFO - DatacenterModelManager initialized with 1 GPUs
+2025-08-14 12:04:10,260 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-14 12:04:10,359 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-14 12:04:10,359 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-14 12:04:11,328 - datacenter_model_manager - INFO - Loaded detection instance 0 on GPU 0
+2025-08-14 12:04:11,493 - datacenter_model_manager - INFO - Loaded detection instance 1 on GPU 0
+2025-08-14 12:04:11,493 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 0
+2025-08-14 12:04:11,493 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 1
+2025-08-14 12:04:11,494 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 12:04:11,495 - datacenter_model_manager - INFO - DatacenterModelManager initialized with 1 GPUs
+2025-08-14 12:04:41,496 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 12:13:47,706 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-14 12:13:47,754 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-14 12:13:47,754 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-14 12:13:48,212 - datacenter_model_manager - INFO - Loaded detection instance 0 on GPU 0
+2025-08-14 12:13:48,379 - datacenter_model_manager - INFO - Loaded detection instance 1 on GPU 0
+2025-08-14 12:13:48,380 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 0
+2025-08-14 12:13:48,380 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 1
+2025-08-14 12:13:48,381 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 12:13:48,381 - datacenter_model_manager - INFO - DatacenterModelManager initialized with 1 GPUs
+2025-08-14 12:14:18,383 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 12:26:13,416 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-14 12:26:13,436 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-14 12:26:13,437 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-14 12:26:14,015 - datacenter_model_manager - INFO - Loaded detection instance 0 on GPU 0
+2025-08-14 12:26:14,176 - datacenter_model_manager - INFO - Loaded detection instance 1 on GPU 0
+2025-08-14 12:26:14,176 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 0
+2025-08-14 12:26:14,177 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 1
+2025-08-14 12:26:14,177 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 12:26:14,178 - datacenter_model_manager - INFO - DatacenterModelManager initialized with 1 GPUs
+2025-08-14 12:26:44,179 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 12:42:03,901 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-14 12:42:03,939 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-14 12:42:03,939 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-14 12:42:04,439 - datacenter_model_manager - INFO - Loaded detection instance 0 on GPU 0
+2025-08-14 12:42:04,598 - datacenter_model_manager - INFO - Loaded detection instance 1 on GPU 0
+2025-08-14 12:42:04,598 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 0
+2025-08-14 12:42:04,598 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 1
+2025-08-14 12:42:04,599 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 12:42:04,599 - datacenter_model_manager - INFO - DatacenterModelManager initialized with 1 GPUs
+2025-08-14 12:42:34,601 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 12:51:05,984 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-14 12:51:06,024 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-14 12:51:06,024 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-14 12:51:06,496 - datacenter_model_manager - INFO - Loaded detection instance 0 on GPU 0
+2025-08-14 12:51:06,661 - datacenter_model_manager - INFO - Loaded detection instance 1 on GPU 0
+2025-08-14 12:51:06,661 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 0
+2025-08-14 12:51:06,661 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 1
+2025-08-14 12:51:06,662 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 12:51:06,663 - datacenter_model_manager - INFO - DatacenterModelManager initialized with 1 GPUs
+2025-08-14 12:51:36,664 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 13:12:34,188 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-14 13:12:34,227 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-14 13:12:34,227 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-14 13:12:34,800 - datacenter_model_manager - ERROR - Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\yolov11l.pt'
+2025-08-14 13:12:34,801 - datacenter_model_manager - ERROR - Failed to load detection on GPU 0: Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\yolov11l.pt'
+2025-08-14 13:12:35,200 - datacenter_model_manager - ERROR - Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\yolov11l.pt'
+2025-08-14 13:12:35,202 - datacenter_model_manager - ERROR - Failed to load detection on GPU 0: Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\yolov11l.pt'
+2025-08-14 13:12:35,604 - datacenter_model_manager - ERROR - Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\ppe_detection.pt'
+2025-08-14 13:12:35,605 - datacenter_model_manager - ERROR - Failed to load ppe_detection on GPU 0: Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\ppe_detection.pt'
+2025-08-14 13:12:36,011 - datacenter_model_manager - ERROR - Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\ppe_detection.pt'
+2025-08-14 13:12:36,011 - datacenter_model_manager - ERROR - Failed to load ppe_detection on GPU 0: Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\ppe_detection.pt'
+2025-08-14 13:12:36,015 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 13:12:36,016 - datacenter_model_manager - INFO - DatacenterModelManager initialized with 1 GPUs
+2025-08-14 13:13:06,017 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 13:33:52,719 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-14 13:33:52,761 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-14 13:33:52,762 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-14 13:33:53,521 - datacenter_model_manager - ERROR - Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\yolov11l.pt'
+2025-08-14 13:33:53,521 - datacenter_model_manager - ERROR - Failed to load detection on GPU 0: Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\yolov11l.pt'
+2025-08-14 13:33:53,922 - datacenter_model_manager - ERROR - Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\yolov11l.pt'
+2025-08-14 13:33:53,923 - datacenter_model_manager - ERROR - Failed to load detection on GPU 0: Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\yolov11l.pt'
+2025-08-14 13:33:54,336 - datacenter_model_manager - ERROR - Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\ppe_detection.pt'
+2025-08-14 13:33:54,337 - datacenter_model_manager - ERROR - Failed to load ppe_detection on GPU 0: Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\ppe_detection.pt'
+2025-08-14 13:33:54,726 - datacenter_model_manager - ERROR - Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\ppe_detection.pt'
+2025-08-14 13:33:54,727 - datacenter_model_manager - ERROR - Failed to load ppe_detection on GPU 0: Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\ppe_detection.pt'
+2025-08-14 13:33:54,730 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 13:33:54,731 - datacenter_model_manager - INFO - DatacenterModelManager initialized with 1 GPUs
+2025-08-14 13:34:24,731 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 15:05:22,530 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-14 15:05:22,599 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-14 15:05:22,600 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-14 15:05:22,755 - datacenter_model_manager - ERROR - Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\yolov11l.pt'
+2025-08-14 15:05:22,755 - datacenter_model_manager - ERROR - Failed to load detection on GPU 0: Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\yolov11l.pt'
+2025-08-14 15:05:22,944 - datacenter_model_manager - ERROR - Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\yolov11l.pt'
+2025-08-14 15:05:22,945 - datacenter_model_manager - ERROR - Failed to load detection on GPU 0: Model loading failed on GPU 0: [Errno 2] No such file or directory: 'models\\yolov11l.pt'
+2025-08-14 15:05:23,446 - datacenter_model_manager - INFO - Loaded ppe_detection instance 0 on GPU 0
+2025-08-14 15:05:23,495 - datacenter_model_manager - INFO - Loaded ppe_detection instance 1 on GPU 0
+2025-08-14 15:05:23,497 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 15:05:23,497 - datacenter_model_manager - INFO - DatacenterModelManager initialized with 1 GPUs
+2025-08-14 15:05:53,498 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 16:06:41,715 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-14 16:06:41,745 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-14 16:06:41,745 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-14 16:06:42,187 - datacenter_model_manager - ERROR - Model loading failed on GPU 0: [Errno 2] No such file or directory: '..models\\yolov11l.pt'
+2025-08-14 16:06:42,188 - datacenter_model_manager - ERROR - Failed to load detection on GPU 0: Model loading failed on GPU 0: [Errno 2] No such file or directory: '..models\\yolov11l.pt'
+2025-08-14 16:06:42,294 - datacenter_model_manager - ERROR - Model loading failed on GPU 0: [Errno 2] No such file or directory: '..models\\yolov11l.pt'
+2025-08-14 16:06:42,295 - datacenter_model_manager - ERROR - Failed to load detection on GPU 0: Model loading failed on GPU 0: [Errno 2] No such file or directory: '..models\\yolov11l.pt'
+2025-08-14 16:06:42,415 - datacenter_model_manager - ERROR - Model loading failed on GPU 0: [Errno 2] No such file or directory: '..models\\ppe_detection.pt'
+2025-08-14 16:06:42,416 - datacenter_model_manager - ERROR - Failed to load ppe_detection on GPU 0: Model loading failed on GPU 0: [Errno 2] No such file or directory: '..models\\ppe_detection.pt'
+2025-08-14 16:06:42,529 - datacenter_model_manager - ERROR - Model loading failed on GPU 0: [Errno 2] No such file or directory: '..models\\ppe_detection.pt'
+2025-08-14 16:06:42,529 - datacenter_model_manager - ERROR - Failed to load ppe_detection on GPU 0: Model loading failed on GPU 0: [Errno 2] No such file or directory: '..models\\ppe_detection.pt'
+2025-08-14 16:06:42,532 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 16:06:42,533 - datacenter_model_manager - INFO - DatacenterModelManager initialized with 1 GPUs
+2025-08-14 16:07:12,534 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 16:15:45,456 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-14 16:15:45,499 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-14 16:15:45,500 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-14 16:15:46,050 - datacenter_model_manager - ERROR - Model loading failed on GPU 0: [Errno 2] No such file or directory: '..\\models\\yolov11l.pt'
+2025-08-14 16:15:46,051 - datacenter_model_manager - ERROR - Failed to load detection on GPU 0: Model loading failed on GPU 0: [Errno 2] No such file or directory: '..\\models\\yolov11l.pt'
+2025-08-14 16:15:46,181 - datacenter_model_manager - ERROR - Model loading failed on GPU 0: [Errno 2] No such file or directory: '..\\models\\yolov11l.pt'
+2025-08-14 16:15:46,182 - datacenter_model_manager - ERROR - Failed to load detection on GPU 0: Model loading failed on GPU 0: [Errno 2] No such file or directory: '..\\models\\yolov11l.pt'
+2025-08-14 16:15:46,552 - datacenter_model_manager - INFO - Loaded ppe_detection instance 0 on GPU 0
+2025-08-14 16:15:46,613 - datacenter_model_manager - INFO - Loaded ppe_detection instance 1 on GPU 0
+2025-08-14 16:15:46,614 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 16:15:46,615 - datacenter_model_manager - INFO - DatacenterModelManager initialized with 1 GPUs
+2025-08-14 16:16:16,615 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 16:24:09,787 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-14 16:24:09,828 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-14 16:24:09,829 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-14 16:24:10,344 - datacenter_model_manager - ERROR - Model loading failed on GPU 0: [Errno 2] No such file or directory: 'C:\\Users\\DELL\\Desktop\\Datacenter full integration\\models\\yolov11l.pt'
+2025-08-14 16:24:10,345 - datacenter_model_manager - ERROR - Failed to load detection on GPU 0: Model loading failed on GPU 0: [Errno 2] No such file or directory: 'C:\\Users\\DELL\\Desktop\\Datacenter full integration\\models\\yolov11l.pt'
+2025-08-14 16:24:10,473 - datacenter_model_manager - ERROR - Model loading failed on GPU 0: [Errno 2] No such file or directory: 'C:\\Users\\DELL\\Desktop\\Datacenter full integration\\models\\yolov11l.pt'
+2025-08-14 16:24:10,474 - datacenter_model_manager - ERROR - Failed to load detection on GPU 0: Model loading failed on GPU 0: [Errno 2] No such file or directory: 'C:\\Users\\DELL\\Desktop\\Datacenter full integration\\models\\yolov11l.pt'
+2025-08-14 16:24:10,770 - datacenter_model_manager - INFO - Loaded ppe_detection instance 0 on GPU 0
+2025-08-14 16:24:10,830 - datacenter_model_manager - INFO - Loaded ppe_detection instance 1 on GPU 0
+2025-08-14 16:24:10,831 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 16:24:10,831 - datacenter_model_manager - INFO - DatacenterModelManager initialized with 1 GPUs
+2025-08-14 16:24:40,832 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 16:25:10,834 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 16:25:40,836 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 16:30:41,926 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-14 16:30:41,951 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-14 16:30:41,952 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-14 16:30:42,412 - datacenter_model_manager - INFO - Loaded detection instance 0 on GPU 0
+2025-08-14 16:30:42,554 - datacenter_model_manager - INFO - Loaded detection instance 1 on GPU 0
+2025-08-14 16:30:42,554 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 0
+2025-08-14 16:30:42,554 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 1
+2025-08-14 16:30:42,555 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 16:30:42,556 - datacenter_model_manager - INFO - DatacenterModelManager initialized with 1 GPUs
+2025-08-14 16:31:12,556 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 16:31:42,558 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 18:03:37,057 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-14 18:03:37,100 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-14 18:03:37,100 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-14 18:03:37,568 - datacenter_model_manager - INFO - Loaded detection instance 0 on GPU 0
+2025-08-14 18:03:37,721 - datacenter_model_manager - INFO - Loaded detection instance 1 on GPU 0
+2025-08-14 18:03:37,721 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 0
+2025-08-14 18:03:37,721 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 1
+2025-08-14 18:03:37,722 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 18:03:37,722 - datacenter_model_manager - INFO - DatacenterModelManager initialized with 1 GPUs
+2025-08-14 18:04:07,724 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 18:04:37,726 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 18:05:07,728 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-14 18:05:12,721 - datacenter_model_manager - INFO - Shutting down DatacenterModelManager
+2025-08-14 18:05:17,725 - datacenter_model_manager - INFO - Shutting down DatacenterModelManager
+2025-08-14 18:05:27,760 - datacenter_model_manager - INFO - DatacenterModelManager shutdown complete
+2025-08-18 12:22:33,358 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-18 12:22:33,462 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-18 12:22:33,463 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-18 12:22:34,402 - datacenter_model_manager - INFO - Loaded detection instance 0 on GPU 0
+2025-08-18 12:22:34,586 - datacenter_model_manager - INFO - Loaded detection instance 1 on GPU 0
+2025-08-18 12:22:34,586 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 0
+2025-08-18 12:22:34,586 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 1
+2025-08-18 12:22:34,588 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-18 12:22:34,588 - datacenter_model_manager - INFO - DatacenterModelManager initialized with 1 GPUs
+2025-08-18 12:23:04,589 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-18 12:23:34,591 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-18 12:24:04,593 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-18 12:24:34,596 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-18 12:24:42,071 - datacenter_model_manager - INFO - Shutting down DatacenterModelManager
+2025-08-18 12:24:52,090 - datacenter_model_manager - INFO - DatacenterModelManager shutdown complete
+2025-08-18 12:25:23,121 - datacenter_model_manager - INFO - Shutting down DatacenterModelManager
+2025-08-18 12:25:28,134 - datacenter_model_manager - INFO - DatacenterModelManager shutdown complete
+2025-08-18 12:29:52,860 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-18 12:29:52,901 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-18 12:29:52,902 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-18 12:29:53,358 - datacenter_model_manager - INFO - Loaded detection instance 0 on GPU 0
+2025-08-18 12:29:53,574 - datacenter_model_manager - INFO - Loaded detection instance 1 on GPU 0
+2025-08-18 12:29:53,574 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 0
+2025-08-18 12:29:53,574 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 1
+2025-08-18 12:29:53,576 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-18 12:29:53,577 - datacenter_model_manager - INFO - DatacenterModelManager initialized with 1 GPUs
+2025-08-18 12:30:03,730 - datacenter_model_manager - INFO - Shutting down DatacenterModelManager
+2025-08-18 12:30:13,765 - datacenter_model_manager - INFO - DatacenterModelManager shutdown complete
+2025-08-18 14:56:19,924 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-18 14:56:20,005 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-18 14:56:20,006 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-18 14:56:20,657 - datacenter_model_manager - INFO - Loaded detection instance 0 on GPU 0
+2025-08-18 14:56:20,804 - datacenter_model_manager - INFO - Loaded detection instance 1 on GPU 0
+2025-08-18 14:56:20,804 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 0
+2025-08-18 14:56:20,805 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 1
+2025-08-18 14:56:20,805 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-18 14:56:20,806 - datacenter_model_manager - INFO - DatacenterModelManager initialized with 1 GPUs
+2025-08-18 15:03:14,362 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-18 15:03:14,394 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-18 15:03:14,394 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-18 15:03:14,824 - datacenter_model_manager - INFO - Loaded detection instance 0 on GPU 0
+2025-08-18 15:03:14,986 - datacenter_model_manager - INFO - Loaded detection instance 1 on GPU 0
+2025-08-18 15:03:14,986 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 0
+2025-08-18 15:03:14,986 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 1
+2025-08-18 15:03:14,987 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-18 15:03:14,988 - datacenter_model_manager - INFO - DatacenterModelManager initialized with 1 GPUs
+2025-08-18 15:03:44,989 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-18 16:06:32,666 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-18 16:06:32,704 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-18 16:06:32,705 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-18 16:06:33,255 - datacenter_model_manager - INFO - Loaded detection instance 0 on GPU 0
+2025-08-18 16:06:33,432 - datacenter_model_manager - INFO - Loaded detection instance 1 on GPU 0
+2025-08-18 16:06:33,432 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 0
+2025-08-18 16:06:33,432 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 1
+2025-08-18 16:06:33,433 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-18 16:06:33,434 - datacenter_model_manager - INFO - DatacenterModelManager initialized with 1 GPUs
+2025-08-18 16:55:54,155 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-18 16:55:54,178 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-18 16:55:54,179 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-18 16:55:54,611 - datacenter_model_manager - INFO - Loaded detection instance 0 on GPU 0
+2025-08-18 16:55:54,775 - datacenter_model_manager - INFO - Loaded detection instance 1 on GPU 0
+2025-08-18 16:55:54,775 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 0
+2025-08-18 16:55:54,775 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 1
+2025-08-18 16:55:54,777 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-18 16:55:54,777 - datacenter_model_manager - INFO - DatacenterModelManager initialized with 1 GPUs
+2025-08-18 17:09:56,393 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-18 17:09:56,432 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-18 17:09:56,432 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-18 17:09:56,909 - datacenter_model_manager - INFO - Loaded detection instance 0 on GPU 0
+2025-08-18 17:09:57,049 - datacenter_model_manager - INFO - Loaded detection instance 1 on GPU 0
+2025-08-18 17:09:57,050 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 0
+2025-08-18 17:09:57,050 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 1
+2025-08-18 17:09:57,051 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-18 17:09:57,051 - datacenter_model_manager - INFO - DatacenterModelManager initialized with 1 GPUs
+2025-08-18 17:10:27,052 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-18 17:10:57,055 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-18 17:11:27,057 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-18 17:11:57,059 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-18 17:12:27,238 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-18 17:12:57,240 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-18 17:18:29,762 - datacenter_model_manager - INFO - Initializing DatacenterModelManager
+2025-08-18 17:18:29,813 - datacenter_model_manager - INFO - GPU 0 available: NVIDIA RTX A2000 8GB Laptop GPU
+2025-08-18 17:18:29,814 - datacenter_model_manager - INFO - Loading models on GPUs...
+2025-08-18 17:18:30,324 - datacenter_model_manager - INFO - Loaded detection instance 0 on GPU 0
+2025-08-18 17:18:30,474 - datacenter_model_manager - INFO - Loaded detection instance 1 on GPU 0
+2025-08-18 17:18:30,474 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 0
+2025-08-18 17:18:30,474 - datacenter_model_manager - WARNING - No optimal GPU found for ppe_detection instance 1
+2025-08-18 17:18:30,476 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-18 17:18:30,476 - datacenter_model_manager - INFO - DatacenterModelManager initialized with 1 GPUs
+2025-08-18 17:19:00,477 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-18 17:19:30,480 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
+2025-08-18 17:20:00,484 - datacenter_model_manager - INFO - Performance stats: 0 inferences, avg time: 0.000s, GPU switches: 0, memory warnings: 0
